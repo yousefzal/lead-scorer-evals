@@ -1,0 +1,961 @@
+prompt,model,case_id,run,expected_label,expected_profile,got_label,got_score,got_profile,label_ok,profile_ok,capped_by_code
+v1,claude-sonnet-4-6,1,1,hot,Medical professionals,hot,9,Medical professionals,True,True,False
+v1,claude-sonnet-4-6,1,2,hot,Medical professionals,hot,9,Medical professionals,True,True,False
+v1,claude-sonnet-4-6,1,3,hot,Medical professionals,hot,9,Medical professionals,True,True,False
+v1,claude-sonnet-4-6,2,1,hot,Allocators / other,hot,9,Allocators / other,True,True,False
+v1,claude-sonnet-4-6,2,2,hot,Allocators / other,hot,9,Allocators / other,True,True,False
+v1,claude-sonnet-4-6,2,3,hot,Allocators / other,hot,9,Allocators / other,True,True,False
+v1,claude-sonnet-4-6,3,1,hot,Founders,hot,8,Founders,True,True,False
+v1,claude-sonnet-4-6,3,2,hot,Founders,hot,8,Founders,True,True,False
+v1,claude-sonnet-4-6,3,3,hot,Founders,hot,8,Founders,True,True,False
+v1,claude-sonnet-4-6,4,1,hot,Lawyers,hot,9,Lawyers,True,True,False
+v1,claude-sonnet-4-6,4,2,hot,Lawyers,hot,9,Lawyers,True,True,False
+v1,claude-sonnet-4-6,4,3,hot,Lawyers,hot,9,Lawyers,True,True,False
+v1,claude-sonnet-4-6,5,1,hot,Allocators / other,hot,10,Allocators / other,True,True,False
+v1,claude-sonnet-4-6,5,2,hot,Allocators / other,hot,10,Allocators / other,True,True,False
+v1,claude-sonnet-4-6,5,3,hot,Allocators / other,hot,10,Allocators / other,True,True,False
+v1,claude-sonnet-4-6,6,1,hot,Medical professionals,hot,8,Medical professionals,True,True,False
+v1,claude-sonnet-4-6,6,2,hot,Medical professionals,hot,8,Medical professionals,True,True,False
+v1,claude-sonnet-4-6,6,3,hot,Medical professionals,hot,8,Medical professionals,True,True,False
+v1,claude-sonnet-4-6,7,1,hot,Founders,hot,8,Founders,True,True,False
+v1,claude-sonnet-4-6,7,2,hot,Founders,hot,8,Founders,True,True,False
+v1,claude-sonnet-4-6,7,3,hot,Founders,hot,8,Founders,True,True,False
+v1,claude-sonnet-4-6,8,1,hot,Allocators / other,hot,9,Allocators / other,True,True,False
+v1,claude-sonnet-4-6,8,2,hot,Allocators / other,hot,9,Allocators / other,True,True,False
+v1,claude-sonnet-4-6,8,3,hot,Allocators / other,hot,9,Allocators / other,True,True,False
+v1,claude-sonnet-4-6,9,1,hot,Academics,hot,8,Allocators / other,True,False,False
+v1,claude-sonnet-4-6,9,2,hot,Academics,hot,8,Allocators / other,True,False,False
+v1,claude-sonnet-4-6,9,3,hot,Academics,hot,8,Allocators / other,True,False,False
+v1,claude-sonnet-4-6,10,1,hot,Medical professionals,hot,8,Medical professionals,True,True,False
+v1,claude-sonnet-4-6,10,2,hot,Medical professionals,hot,8,Medical professionals,True,True,False
+v1,claude-sonnet-4-6,10,3,hot,Medical professionals,hot,8,Medical professionals,True,True,False
+v1,claude-sonnet-4-6,11,1,warm,Allocators / other,cold,3,Allocators / other,False,True,False
+v1,claude-sonnet-4-6,11,2,warm,Allocators / other,cold,3,Allocators / other,False,True,False
+v1,claude-sonnet-4-6,11,3,warm,Allocators / other,cold,3,Allocators / other,False,True,False
+v1,claude-sonnet-4-6,12,1,warm,Allocators / other,warm,6,Allocators / other,True,True,False
+v1,claude-sonnet-4-6,12,2,warm,Allocators / other,warm,6,Allocators / other,True,True,False
+v1,claude-sonnet-4-6,12,3,warm,Allocators / other,warm,6,Allocators / other,True,True,False
+v1,claude-sonnet-4-6,13,1,warm,Allocators / other,warm,5,Allocators / other,True,True,False
+v1,claude-sonnet-4-6,13,2,warm,Allocators / other,warm,5,Allocators / other,True,True,False
+v1,claude-sonnet-4-6,13,3,warm,Allocators / other,warm,5,Allocators / other,True,True,False
+v1,claude-sonnet-4-6,14,1,warm,Allocators / other,warm,5,Allocators / other,True,True,False
+v1,claude-sonnet-4-6,14,2,warm,Allocators / other,warm,5,Allocators / other,True,True,False
+v1,claude-sonnet-4-6,14,3,warm,Allocators / other,warm,5,Allocators / other,True,True,False
+v1,claude-sonnet-4-6,15,1,warm,Lawyers,hot,7,Lawyers,False,True,False
+v1,claude-sonnet-4-6,15,2,warm,Lawyers,hot,7,Lawyers,False,True,False
+v1,claude-sonnet-4-6,15,3,warm,Lawyers,hot,7,Lawyers,False,True,False
+v1,claude-sonnet-4-6,16,1,warm,Allocators / other,hot,8,Allocators / other,False,True,False
+v1,claude-sonnet-4-6,16,2,warm,Allocators / other,hot,8,Allocators / other,False,True,False
+v1,claude-sonnet-4-6,16,3,warm,Allocators / other,hot,7,Allocators / other,False,True,False
+v1,claude-sonnet-4-6,17,1,warm,Medical professionals,warm,4,Medical professionals,True,True,False
+v1,claude-sonnet-4-6,17,2,warm,Medical professionals,warm,4,Medical professionals,True,True,False
+v1,claude-sonnet-4-6,17,3,warm,Medical professionals,warm,4,Medical professionals,True,True,False
+v1,claude-sonnet-4-6,18,1,warm,Academics,cold,3,Academics,False,True,False
+v1,claude-sonnet-4-6,18,2,warm,Academics,cold,3,Academics,False,True,False
+v1,claude-sonnet-4-6,18,3,warm,Academics,cold,3,Academics,False,True,False
+v1,claude-sonnet-4-6,19,1,warm,Allocators / other,hot,9,Allocators / other,False,True,False
+v1,claude-sonnet-4-6,19,2,warm,Allocators / other,hot,9,Allocators / other,False,True,False
+v1,claude-sonnet-4-6,19,3,warm,Allocators / other,hot,9,Allocators / other,False,True,False
+v1,claude-sonnet-4-6,20,1,warm,Diaspora finance,warm,6,Diaspora finance,True,True,False
+v1,claude-sonnet-4-6,20,2,warm,Diaspora finance,warm,6,Diaspora finance,True,True,False
+v1,claude-sonnet-4-6,20,3,warm,Diaspora finance,warm,6,Diaspora finance,True,True,False
+v1,claude-sonnet-4-6,21,1,warm,Lawyers,warm,4,Lawyers,True,True,False
+v1,claude-sonnet-4-6,21,2,warm,Lawyers,warm,4,Lawyers,True,True,False
+v1,claude-sonnet-4-6,21,3,warm,Lawyers,warm,4,Lawyers,True,True,False
+v1,claude-sonnet-4-6,22,1,hot,Diaspora finance,hot,7,Diaspora finance,True,True,False
+v1,claude-sonnet-4-6,22,2,hot,Diaspora finance,hot,7,Diaspora finance,True,True,False
+v1,claude-sonnet-4-6,22,3,hot,Diaspora finance,hot,7,Diaspora finance,True,True,False
+v1,claude-sonnet-4-6,23,1,cold,Medical professionals,cold,2,Medical professionals,True,True,False
+v1,claude-sonnet-4-6,23,2,cold,Medical professionals,cold,2,Medical professionals,True,True,False
+v1,claude-sonnet-4-6,23,3,cold,Medical professionals,cold,2,Medical professionals,True,True,False
+v1,claude-sonnet-4-6,24,1,cold,Allocators / other,cold,2,Allocators / other,True,True,False
+v1,claude-sonnet-4-6,24,2,cold,Allocators / other,cold,2,Allocators / other,True,True,False
+v1,claude-sonnet-4-6,24,3,cold,Allocators / other,cold,2,Allocators / other,True,True,False
+v1,claude-sonnet-4-6,25,1,cold,Academics,cold,2,Allocators / other,True,False,False
+v1,claude-sonnet-4-6,25,2,cold,Academics,cold,2,Allocators / other,True,False,False
+v1,claude-sonnet-4-6,25,3,cold,Academics,cold,2,Allocators / other,True,False,False
+v1,claude-sonnet-4-6,26,1,cold,Allocators / other,cold,1,Allocators / other,True,True,False
+v1,claude-sonnet-4-6,26,2,cold,Allocators / other,cold,1,Allocators / other,True,True,False
+v1,claude-sonnet-4-6,26,3,cold,Allocators / other,cold,1,Allocators / other,True,True,False
+v1,claude-sonnet-4-6,27,1,cold,Academics,cold,2,Allocators / other,True,False,False
+v1,claude-sonnet-4-6,27,2,cold,Academics,cold,2,Allocators / other,True,False,False
+v1,claude-sonnet-4-6,27,3,cold,Academics,cold,2,Allocators / other,True,False,False
+v1,claude-sonnet-4-6,28,1,cold,Lawyers,cold,2,Lawyers,True,True,False
+v1,claude-sonnet-4-6,28,2,cold,Lawyers,cold,2,Lawyers,True,True,False
+v1,claude-sonnet-4-6,28,3,cold,Lawyers,cold,2,Lawyers,True,True,False
+v1,claude-sonnet-4-6,29,1,cold,Allocators / other,cold,2,Allocators / other,True,True,False
+v1,claude-sonnet-4-6,29,2,cold,Allocators / other,cold,2,Allocators / other,True,True,False
+v1,claude-sonnet-4-6,29,3,cold,Allocators / other,cold,2,Allocators / other,True,True,False
+v1,claude-sonnet-4-6,30,1,cold,Academics,cold,3,Academics,True,True,False
+v1,claude-sonnet-4-6,30,2,cold,Academics,cold,3,Academics,True,True,False
+v1,claude-sonnet-4-6,30,3,cold,Academics,cold,3,Academics,True,True,False
+v1,claude-sonnet-4-6,31,1,cold,Allocators / other,cold,1,Allocators / other,True,True,False
+v1,claude-sonnet-4-6,31,2,cold,Allocators / other,cold,1,Allocators / other,True,True,False
+v1,claude-sonnet-4-6,31,3,cold,Allocators / other,cold,1,Allocators / other,True,True,False
+v1,claude-sonnet-4-6,32,1,cold,Medical professionals,cold,2,Medical professionals,True,True,False
+v1,claude-sonnet-4-6,32,2,cold,Medical professionals,cold,2,Medical professionals,True,True,False
+v1,claude-sonnet-4-6,32,3,cold,Medical professionals,cold,2,Medical professionals,True,True,False
+v1,claude-sonnet-4-6,33,1,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v1,claude-sonnet-4-6,33,2,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v1,claude-sonnet-4-6,33,3,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v1,claude-sonnet-4-6,34,1,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v1,claude-sonnet-4-6,34,2,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v1,claude-sonnet-4-6,34,3,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v1,claude-sonnet-4-6,35,1,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v1,claude-sonnet-4-6,35,2,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v1,claude-sonnet-4-6,35,3,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v1,claude-sonnet-4-6,36,1,warm,Allocators / other,warm,6,Allocators / other,True,True,False
+v1,claude-sonnet-4-6,36,2,warm,Allocators / other,warm,6,Allocators / other,True,True,False
+v1,claude-sonnet-4-6,36,3,warm,Allocators / other,warm,6,Allocators / other,True,True,False
+v1,claude-sonnet-4-6,37,1,warm,Allocators / other,hot,9,Allocators / other,False,True,False
+v1,claude-sonnet-4-6,37,2,warm,Allocators / other,hot,9,Allocators / other,False,True,False
+v1,claude-sonnet-4-6,37,3,warm,Allocators / other,hot,9,Allocators / other,False,True,False
+v1,claude-sonnet-4-6,38,1,warm,Allocators / other,warm,6,Allocators / other,True,True,False
+v1,claude-sonnet-4-6,38,2,warm,Allocators / other,warm,6,Allocators / other,True,True,False
+v1,claude-sonnet-4-6,38,3,warm,Allocators / other,warm,6,Allocators / other,True,True,False
+v1,claude-sonnet-4-6,39,1,warm,Founders,warm,6,Founders,True,True,False
+v1,claude-sonnet-4-6,39,2,warm,Founders,warm,6,Founders,True,True,False
+v1,claude-sonnet-4-6,39,3,warm,Founders,warm,6,Founders,True,True,False
+v1,claude-sonnet-4-6,40,1,hot,Medical professionals,hot,7,Medical professionals,True,True,False
+v1,claude-sonnet-4-6,40,2,hot,Medical professionals,warm,6,Medical professionals,False,True,False
+v1,claude-sonnet-4-6,40,3,hot,Medical professionals,warm,6,Medical professionals,False,True,False
+v1,claude-haiku-4-5,1,1,hot,Medical professionals,hot,8,Medical professionals,True,True,False
+v1,claude-haiku-4-5,1,2,hot,Medical professionals,hot,8,Medical professionals,True,True,False
+v1,claude-haiku-4-5,1,3,hot,Medical professionals,hot,8,Medical professionals,True,True,False
+v1,claude-haiku-4-5,2,1,hot,Allocators / other,hot,9,Allocators / other,True,True,False
+v1,claude-haiku-4-5,2,2,hot,Allocators / other,hot,9,Diaspora finance,True,False,False
+v1,claude-haiku-4-5,2,3,hot,Allocators / other,hot,9,Allocators / other,True,True,False
+v1,claude-haiku-4-5,3,1,hot,Founders,hot,8,Founders,True,True,False
+v1,claude-haiku-4-5,3,2,hot,Founders,hot,8,Founders,True,True,False
+v1,claude-haiku-4-5,3,3,hot,Founders,hot,8,Founders,True,True,False
+v1,claude-haiku-4-5,4,1,hot,Lawyers,hot,8,Lawyers,True,True,False
+v1,claude-haiku-4-5,4,2,hot,Lawyers,hot,8,Lawyers,True,True,False
+v1,claude-haiku-4-5,4,3,hot,Lawyers,hot,8,Lawyers,True,True,False
+v1,claude-haiku-4-5,5,1,hot,Allocators / other,hot,9,Allocators / other,True,True,False
+v1,claude-haiku-4-5,5,2,hot,Allocators / other,hot,9,Allocators / other,True,True,False
+v1,claude-haiku-4-5,5,3,hot,Allocators / other,hot,9,Allocators / other,True,True,False
+v1,claude-haiku-4-5,6,1,hot,Medical professionals,hot,8,Medical professionals,True,True,False
+v1,claude-haiku-4-5,6,2,hot,Medical professionals,hot,8,Medical professionals,True,True,False
+v1,claude-haiku-4-5,6,3,hot,Medical professionals,hot,8,Medical professionals,True,True,False
+v1,claude-haiku-4-5,7,1,hot,Founders,hot,8,Founders,True,True,False
+v1,claude-haiku-4-5,7,2,hot,Founders,hot,8,Founders,True,True,False
+v1,claude-haiku-4-5,7,3,hot,Founders,hot,8,Founders,True,True,False
+v1,claude-haiku-4-5,8,1,hot,Allocators / other,hot,9,Allocators / other,True,True,False
+v1,claude-haiku-4-5,8,2,hot,Allocators / other,hot,9,Allocators / other,True,True,False
+v1,claude-haiku-4-5,8,3,hot,Allocators / other,hot,9,Allocators / other,True,True,False
+v1,claude-haiku-4-5,9,1,hot,Academics,hot,8,Allocators / other,True,False,False
+v1,claude-haiku-4-5,9,2,hot,Academics,hot,8,Allocators / other,True,False,False
+v1,claude-haiku-4-5,9,3,hot,Academics,hot,8,Allocators / other,True,False,False
+v1,claude-haiku-4-5,10,1,hot,Medical professionals,hot,8,Medical professionals,True,True,False
+v1,claude-haiku-4-5,10,2,hot,Medical professionals,hot,8,Medical professionals,True,True,False
+v1,claude-haiku-4-5,10,3,hot,Medical professionals,hot,8,Medical professionals,True,True,False
+v1,claude-haiku-4-5,11,1,warm,Allocators / other,cold,2,Founders,False,False,False
+v1,claude-haiku-4-5,11,2,warm,Allocators / other,cold,2,Founders,False,False,False
+v1,claude-haiku-4-5,11,3,warm,Allocators / other,cold,2,Founders,False,False,False
+v1,claude-haiku-4-5,12,1,warm,Allocators / other,warm,5,Founders,True,False,False
+v1,claude-haiku-4-5,12,2,warm,Allocators / other,warm,6,Founders,True,False,False
+v1,claude-haiku-4-5,12,3,warm,Allocators / other,warm,6,Founders,True,False,False
+v1,claude-haiku-4-5,13,1,warm,Allocators / other,warm,5,Founders,True,False,False
+v1,claude-haiku-4-5,13,2,warm,Allocators / other,warm,5,Founders,True,False,False
+v1,claude-haiku-4-5,13,3,warm,Allocators / other,warm,5,Founders,True,False,False
+v1,claude-haiku-4-5,14,1,warm,Allocators / other,warm,6,Allocators / other,True,True,False
+v1,claude-haiku-4-5,14,2,warm,Allocators / other,warm,6,Allocators / other,True,True,False
+v1,claude-haiku-4-5,14,3,warm,Allocators / other,warm,6,Allocators / other,True,True,False
+v1,claude-haiku-4-5,15,1,warm,Lawyers,warm,6,Lawyers,True,True,False
+v1,claude-haiku-4-5,15,2,warm,Lawyers,warm,6,Lawyers,True,True,False
+v1,claude-haiku-4-5,15,3,warm,Lawyers,,,,False,False,False
+v1,claude-haiku-4-5,16,1,warm,Allocators / other,hot,8,Founders,False,False,False
+v1,claude-haiku-4-5,16,2,warm,Allocators / other,hot,8,Allocators / other,False,True,False
+v1,claude-haiku-4-5,16,3,warm,Allocators / other,hot,8,Allocators / other,False,True,False
+v1,claude-haiku-4-5,17,1,warm,Medical professionals,warm,5,Medical professionals,True,True,False
+v1,claude-haiku-4-5,17,2,warm,Medical professionals,warm,5,Medical professionals,True,True,False
+v1,claude-haiku-4-5,17,3,warm,Medical professionals,warm,5,Medical professionals,True,True,False
+v1,claude-haiku-4-5,18,1,warm,Academics,warm,5,Academics,True,True,False
+v1,claude-haiku-4-5,18,2,warm,Academics,warm,5,Academics,True,True,False
+v1,claude-haiku-4-5,18,3,warm,Academics,warm,5,Academics,True,True,False
+v1,claude-haiku-4-5,19,1,warm,Allocators / other,hot,9,Allocators / other,False,True,False
+v1,claude-haiku-4-5,19,2,warm,Allocators / other,hot,9,Allocators / other,False,True,False
+v1,claude-haiku-4-5,19,3,warm,Allocators / other,hot,9,Allocators / other,False,True,False
+v1,claude-haiku-4-5,20,1,warm,Diaspora finance,hot,7,Diaspora finance,False,True,False
+v1,claude-haiku-4-5,20,2,warm,Diaspora finance,hot,7,Diaspora finance,False,True,False
+v1,claude-haiku-4-5,20,3,warm,Diaspora finance,hot,7,Diaspora finance,False,True,False
+v1,claude-haiku-4-5,21,1,warm,Lawyers,warm,5,Lawyers,True,True,False
+v1,claude-haiku-4-5,21,2,warm,Lawyers,warm,5,Lawyers,True,True,False
+v1,claude-haiku-4-5,21,3,warm,Lawyers,warm,5,Lawyers,True,True,False
+v1,claude-haiku-4-5,22,1,hot,Diaspora finance,hot,7,Diaspora finance,True,True,False
+v1,claude-haiku-4-5,22,2,hot,Diaspora finance,hot,7,Diaspora finance,True,True,False
+v1,claude-haiku-4-5,22,3,hot,Diaspora finance,hot,7,Diaspora finance,True,True,False
+v1,claude-haiku-4-5,23,1,cold,Medical professionals,cold,2,Medical professionals,True,True,False
+v1,claude-haiku-4-5,23,2,cold,Medical professionals,cold,2,Medical professionals,True,True,False
+v1,claude-haiku-4-5,23,3,cold,Medical professionals,cold,2,Medical professionals,True,True,False
+v1,claude-haiku-4-5,24,1,cold,Allocators / other,cold,3,Allocators / other,True,True,False
+v1,claude-haiku-4-5,24,2,cold,Allocators / other,cold,3,Allocators / other,True,True,False
+v1,claude-haiku-4-5,24,3,cold,Allocators / other,cold,3,Allocators / other,True,True,False
+v1,claude-haiku-4-5,25,1,cold,Academics,cold,2,Academics,True,True,False
+v1,claude-haiku-4-5,25,2,cold,Academics,cold,2,Allocators / other,True,False,False
+v1,claude-haiku-4-5,25,3,cold,Academics,cold,2,Academics,True,True,False
+v1,claude-haiku-4-5,26,1,cold,Allocators / other,cold,1,Allocators / other,True,True,False
+v1,claude-haiku-4-5,26,2,cold,Allocators / other,cold,1,Allocators / other,True,True,False
+v1,claude-haiku-4-5,26,3,cold,Allocators / other,cold,1,Allocators / other,True,True,False
+v1,claude-haiku-4-5,27,1,cold,Academics,cold,2,Academics,True,True,False
+v1,claude-haiku-4-5,27,2,cold,Academics,cold,2,Academics,True,True,False
+v1,claude-haiku-4-5,27,3,cold,Academics,cold,2,Academics,True,True,False
+v1,claude-haiku-4-5,28,1,cold,Lawyers,cold,2,Lawyers,True,True,False
+v1,claude-haiku-4-5,28,2,cold,Lawyers,cold,2,Lawyers,True,True,False
+v1,claude-haiku-4-5,28,3,cold,Lawyers,cold,2,Lawyers,True,True,False
+v1,claude-haiku-4-5,29,1,cold,Allocators / other,cold,2,Allocators / other,True,True,False
+v1,claude-haiku-4-5,29,2,cold,Allocators / other,cold,2,Allocators / other,True,True,False
+v1,claude-haiku-4-5,29,3,cold,Allocators / other,cold,2,Allocators / other,True,True,False
+v1,claude-haiku-4-5,30,1,cold,Academics,warm,5,Academics,False,True,False
+v1,claude-haiku-4-5,30,2,cold,Academics,warm,5,Academics,False,True,False
+v1,claude-haiku-4-5,30,3,cold,Academics,warm,5,Academics,False,True,False
+v1,claude-haiku-4-5,31,1,cold,Allocators / other,cold,2,Allocators / other,True,True,False
+v1,claude-haiku-4-5,31,2,cold,Allocators / other,cold,2,Allocators / other,True,True,False
+v1,claude-haiku-4-5,31,3,cold,Allocators / other,cold,2,Allocators / other,True,True,False
+v1,claude-haiku-4-5,32,1,cold,Medical professionals,cold,2,Medical professionals,True,True,False
+v1,claude-haiku-4-5,32,2,cold,Medical professionals,cold,2,Medical professionals,True,True,False
+v1,claude-haiku-4-5,32,3,cold,Medical professionals,cold,2,Medical professionals,True,True,False
+v1,claude-haiku-4-5,33,1,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v1,claude-haiku-4-5,33,2,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v1,claude-haiku-4-5,33,3,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v1,claude-haiku-4-5,34,1,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v1,claude-haiku-4-5,34,2,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v1,claude-haiku-4-5,34,3,uncontactable,Allocators / other,uncontactable,1,Allocators / other,True,True,False
+v1,claude-haiku-4-5,35,1,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v1,claude-haiku-4-5,35,2,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v1,claude-haiku-4-5,35,3,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v1,claude-haiku-4-5,36,1,warm,Allocators / other,warm,6,Founders,True,False,False
+v1,claude-haiku-4-5,36,2,warm,Allocators / other,warm,6,Founders,True,False,False
+v1,claude-haiku-4-5,36,3,warm,Allocators / other,warm,6,Founders,True,False,False
+v1,claude-haiku-4-5,37,1,warm,Allocators / other,hot,9,Allocators / other,False,True,False
+v1,claude-haiku-4-5,37,2,warm,Allocators / other,hot,9,Allocators / other,False,True,False
+v1,claude-haiku-4-5,37,3,warm,Allocators / other,hot,9,Allocators / other,False,True,False
+v1,claude-haiku-4-5,38,1,warm,Allocators / other,hot,8,Allocators / other,False,True,False
+v1,claude-haiku-4-5,38,2,warm,Allocators / other,hot,8,Allocators / other,False,True,False
+v1,claude-haiku-4-5,38,3,warm,Allocators / other,hot,8,Allocators / other,False,True,False
+v1,claude-haiku-4-5,39,1,warm,Founders,hot,7,Founders,False,True,False
+v1,claude-haiku-4-5,39,2,warm,Founders,hot,7,Founders,False,True,False
+v1,claude-haiku-4-5,39,3,warm,Founders,hot,7,Founders,False,True,False
+v1,claude-haiku-4-5,40,1,hot,Medical professionals,warm,6,Medical professionals,False,True,False
+v1,claude-haiku-4-5,40,2,hot,Medical professionals,warm,6,Medical professionals,False,True,False
+v1,claude-haiku-4-5,40,3,hot,Medical professionals,warm,6,Medical professionals,False,True,False
+v2,claude-sonnet-4-6,1,1,hot,Medical professionals,hot,9,Medical professionals,True,True,False
+v2,claude-sonnet-4-6,1,2,hot,Medical professionals,hot,9,Medical professionals,True,True,False
+v2,claude-sonnet-4-6,1,3,hot,Medical professionals,hot,9,Medical professionals,True,True,False
+v2,claude-sonnet-4-6,2,1,hot,Allocators / other,hot,9,Diaspora finance,True,False,False
+v2,claude-sonnet-4-6,2,2,hot,Allocators / other,hot,9,Diaspora finance,True,False,False
+v2,claude-sonnet-4-6,2,3,hot,Allocators / other,hot,9,Diaspora finance,True,False,False
+v2,claude-sonnet-4-6,3,1,hot,Founders,hot,9,Founders,True,True,False
+v2,claude-sonnet-4-6,3,2,hot,Founders,hot,9,Founders,True,True,False
+v2,claude-sonnet-4-6,3,3,hot,Founders,hot,9,Founders,True,True,False
+v2,claude-sonnet-4-6,4,1,hot,Lawyers,hot,9,Lawyers,True,True,False
+v2,claude-sonnet-4-6,4,2,hot,Lawyers,hot,9,Lawyers,True,True,False
+v2,claude-sonnet-4-6,4,3,hot,Lawyers,hot,9,Lawyers,True,True,False
+v2,claude-sonnet-4-6,5,1,hot,Allocators / other,hot,10,Allocators / other,True,True,False
+v2,claude-sonnet-4-6,5,2,hot,Allocators / other,hot,10,Allocators / other,True,True,False
+v2,claude-sonnet-4-6,5,3,hot,Allocators / other,hot,10,Allocators / other,True,True,False
+v2,claude-sonnet-4-6,6,1,hot,Medical professionals,hot,9,Medical professionals,True,True,False
+v2,claude-sonnet-4-6,6,2,hot,Medical professionals,hot,9,Medical professionals,True,True,False
+v2,claude-sonnet-4-6,6,3,hot,Medical professionals,hot,9,Medical professionals,True,True,False
+v2,claude-sonnet-4-6,7,1,hot,Founders,hot,8,Founders,True,True,False
+v2,claude-sonnet-4-6,7,2,hot,Founders,hot,8,Founders,True,True,False
+v2,claude-sonnet-4-6,7,3,hot,Founders,hot,8,Founders,True,True,False
+v2,claude-sonnet-4-6,8,1,hot,Allocators / other,hot,9,Allocators / other,True,True,False
+v2,claude-sonnet-4-6,8,2,hot,Allocators / other,hot,9,Allocators / other,True,True,False
+v2,claude-sonnet-4-6,8,3,hot,Allocators / other,hot,9,Allocators / other,True,True,False
+v2,claude-sonnet-4-6,9,1,hot,Academics,hot,8,Allocators / other,True,False,False
+v2,claude-sonnet-4-6,9,2,hot,Academics,hot,8,Allocators / other,True,False,False
+v2,claude-sonnet-4-6,9,3,hot,Academics,hot,8,Allocators / other,True,False,False
+v2,claude-sonnet-4-6,10,1,hot,Medical professionals,hot,9,Medical professionals,True,True,False
+v2,claude-sonnet-4-6,10,2,hot,Medical professionals,hot,9,Medical professionals,True,True,False
+v2,claude-sonnet-4-6,10,3,hot,Medical professionals,hot,9,Medical professionals,True,True,False
+v2,claude-sonnet-4-6,11,1,warm,Allocators / other,cold,2,Allocators / other,False,True,False
+v2,claude-sonnet-4-6,11,2,warm,Allocators / other,cold,2,Allocators / other,False,True,False
+v2,claude-sonnet-4-6,11,3,warm,Allocators / other,cold,3,Allocators / other,False,True,False
+v2,claude-sonnet-4-6,12,1,warm,Allocators / other,warm,5,Allocators / other,True,True,False
+v2,claude-sonnet-4-6,12,2,warm,Allocators / other,warm,5,Allocators / other,True,True,False
+v2,claude-sonnet-4-6,12,3,warm,Allocators / other,warm,5,Allocators / other,True,True,False
+v2,claude-sonnet-4-6,13,1,warm,Allocators / other,warm,5,Allocators / other,True,True,False
+v2,claude-sonnet-4-6,13,2,warm,Allocators / other,warm,4,Allocators / other,True,True,False
+v2,claude-sonnet-4-6,13,3,warm,Allocators / other,warm,4,Allocators / other,True,True,False
+v2,claude-sonnet-4-6,14,1,warm,Allocators / other,warm,4,Allocators / other,True,True,False
+v2,claude-sonnet-4-6,14,2,warm,Allocators / other,warm,4,Allocators / other,True,True,False
+v2,claude-sonnet-4-6,14,3,warm,Allocators / other,warm,4,Allocators / other,True,True,False
+v2,claude-sonnet-4-6,15,1,warm,Lawyers,warm,5,Lawyers,True,True,False
+v2,claude-sonnet-4-6,15,2,warm,Lawyers,warm,5,Lawyers,True,True,False
+v2,claude-sonnet-4-6,15,3,warm,Lawyers,warm,5,Lawyers,True,True,False
+v2,claude-sonnet-4-6,16,1,warm,Allocators / other,hot,8,Allocators / other,False,True,False
+v2,claude-sonnet-4-6,16,2,warm,Allocators / other,hot,8,Allocators / other,False,True,False
+v2,claude-sonnet-4-6,16,3,warm,Allocators / other,hot,8,Allocators / other,False,True,False
+v2,claude-sonnet-4-6,17,1,warm,Medical professionals,warm,4,Medical professionals,True,True,False
+v2,claude-sonnet-4-6,17,2,warm,Medical professionals,warm,4,Medical professionals,True,True,False
+v2,claude-sonnet-4-6,17,3,warm,Medical professionals,warm,4,Medical professionals,True,True,False
+v2,claude-sonnet-4-6,18,1,warm,Academics,cold,3,Academics,False,True,False
+v2,claude-sonnet-4-6,18,2,warm,Academics,cold,3,Academics,False,True,False
+v2,claude-sonnet-4-6,18,3,warm,Academics,cold,3,Academics,False,True,False
+v2,claude-sonnet-4-6,19,1,warm,Allocators / other,hot,8,Allocators / other,False,True,False
+v2,claude-sonnet-4-6,19,2,warm,Allocators / other,hot,8,Allocators / other,False,True,False
+v2,claude-sonnet-4-6,19,3,warm,Allocators / other,hot,8,Allocators / other,False,True,False
+v2,claude-sonnet-4-6,20,1,warm,Diaspora finance,warm,6,Diaspora finance,True,True,False
+v2,claude-sonnet-4-6,20,2,warm,Diaspora finance,warm,6,Diaspora finance,True,True,False
+v2,claude-sonnet-4-6,20,3,warm,Diaspora finance,warm,6,Diaspora finance,True,True,False
+v2,claude-sonnet-4-6,21,1,warm,Lawyers,warm,4,Lawyers,True,True,False
+v2,claude-sonnet-4-6,21,2,warm,Lawyers,warm,4,Lawyers,True,True,False
+v2,claude-sonnet-4-6,21,3,warm,Lawyers,warm,4,Lawyers,True,True,False
+v2,claude-sonnet-4-6,22,1,hot,Diaspora finance,hot,7,Diaspora finance,True,True,False
+v2,claude-sonnet-4-6,22,2,hot,Diaspora finance,hot,7,Diaspora finance,True,True,False
+v2,claude-sonnet-4-6,22,3,hot,Diaspora finance,hot,7,Diaspora finance,True,True,False
+v2,claude-sonnet-4-6,23,1,cold,Medical professionals,cold,2,Medical professionals,True,True,False
+v2,claude-sonnet-4-6,23,2,cold,Medical professionals,cold,2,Medical professionals,True,True,False
+v2,claude-sonnet-4-6,23,3,cold,Medical professionals,cold,2,Medical professionals,True,True,False
+v2,claude-sonnet-4-6,24,1,cold,Allocators / other,cold,2,Allocators / other,True,True,False
+v2,claude-sonnet-4-6,24,2,cold,Allocators / other,cold,2,Allocators / other,True,True,False
+v2,claude-sonnet-4-6,24,3,cold,Allocators / other,cold,2,Allocators / other,True,True,False
+v2,claude-sonnet-4-6,25,1,cold,Academics,cold,2,Academics,True,True,False
+v2,claude-sonnet-4-6,25,2,cold,Academics,cold,2,Academics,True,True,False
+v2,claude-sonnet-4-6,25,3,cold,Academics,cold,2,Academics,True,True,False
+v2,claude-sonnet-4-6,26,1,cold,Allocators / other,cold,1,Allocators / other,True,True,False
+v2,claude-sonnet-4-6,26,2,cold,Allocators / other,cold,1,Allocators / other,True,True,False
+v2,claude-sonnet-4-6,26,3,cold,Allocators / other,cold,1,Allocators / other,True,True,False
+v2,claude-sonnet-4-6,27,1,cold,Academics,cold,2,Academics,True,True,False
+v2,claude-sonnet-4-6,27,2,cold,Academics,cold,2,Academics,True,True,False
+v2,claude-sonnet-4-6,27,3,cold,Academics,cold,2,Academics,True,True,False
+v2,claude-sonnet-4-6,28,1,cold,Lawyers,cold,2,Lawyers,True,True,False
+v2,claude-sonnet-4-6,28,2,cold,Lawyers,cold,2,Lawyers,True,True,False
+v2,claude-sonnet-4-6,28,3,cold,Lawyers,cold,2,Lawyers,True,True,False
+v2,claude-sonnet-4-6,29,1,cold,Allocators / other,cold,2,Allocators / other,True,True,False
+v2,claude-sonnet-4-6,29,2,cold,Allocators / other,cold,2,Allocators / other,True,True,False
+v2,claude-sonnet-4-6,29,3,cold,Allocators / other,cold,2,Allocators / other,True,True,False
+v2,claude-sonnet-4-6,30,1,cold,Academics,cold,3,Academics,True,True,False
+v2,claude-sonnet-4-6,30,2,cold,Academics,cold,3,Academics,True,True,False
+v2,claude-sonnet-4-6,30,3,cold,Academics,cold,3,Academics,True,True,False
+v2,claude-sonnet-4-6,31,1,cold,Allocators / other,cold,1,Allocators / other,True,True,False
+v2,claude-sonnet-4-6,31,2,cold,Allocators / other,cold,1,Allocators / other,True,True,False
+v2,claude-sonnet-4-6,31,3,cold,Allocators / other,cold,1,Allocators / other,True,True,False
+v2,claude-sonnet-4-6,32,1,cold,Medical professionals,cold,2,Medical professionals,True,True,False
+v2,claude-sonnet-4-6,32,2,cold,Medical professionals,cold,2,Medical professionals,True,True,False
+v2,claude-sonnet-4-6,32,3,cold,Medical professionals,cold,2,Medical professionals,True,True,False
+v2,claude-sonnet-4-6,33,1,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v2,claude-sonnet-4-6,33,2,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v2,claude-sonnet-4-6,33,3,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v2,claude-sonnet-4-6,34,1,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v2,claude-sonnet-4-6,34,2,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v2,claude-sonnet-4-6,34,3,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v2,claude-sonnet-4-6,35,1,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v2,claude-sonnet-4-6,35,2,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v2,claude-sonnet-4-6,35,3,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v2,claude-sonnet-4-6,36,1,warm,Allocators / other,warm,6,Allocators / other,True,True,False
+v2,claude-sonnet-4-6,36,2,warm,Allocators / other,warm,6,Allocators / other,True,True,False
+v2,claude-sonnet-4-6,36,3,warm,Allocators / other,warm,5,Allocators / other,True,True,False
+v2,claude-sonnet-4-6,37,1,warm,Allocators / other,hot,9,Allocators / other,False,True,False
+v2,claude-sonnet-4-6,37,2,warm,Allocators / other,hot,9,Allocators / other,False,True,False
+v2,claude-sonnet-4-6,37,3,warm,Allocators / other,hot,9,Allocators / other,False,True,False
+v2,claude-sonnet-4-6,38,1,warm,Allocators / other,warm,5,Allocators / other,True,True,False
+v2,claude-sonnet-4-6,38,2,warm,Allocators / other,warm,5,Allocators / other,True,True,False
+v2,claude-sonnet-4-6,38,3,warm,Allocators / other,warm,5,Allocators / other,True,True,False
+v2,claude-sonnet-4-6,39,1,warm,Founders,warm,6,Founders,True,True,False
+v2,claude-sonnet-4-6,39,2,warm,Founders,warm,6,Founders,True,True,False
+v2,claude-sonnet-4-6,39,3,warm,Founders,warm,6,Founders,True,True,False
+v2,claude-sonnet-4-6,40,1,hot,Medical professionals,hot,8,Medical professionals,True,True,False
+v2,claude-sonnet-4-6,40,2,hot,Medical professionals,hot,8,Medical professionals,True,True,False
+v2,claude-sonnet-4-6,40,3,hot,Medical professionals,hot,8,Medical professionals,True,True,False
+v2,claude-haiku-4-5,1,1,hot,Medical professionals,hot,9,Medical professionals,True,True,False
+v2,claude-haiku-4-5,1,2,hot,Medical professionals,hot,9,Medical professionals,True,True,False
+v2,claude-haiku-4-5,1,3,hot,Medical professionals,hot,9,Medical professionals,True,True,False
+v2,claude-haiku-4-5,2,1,hot,Allocators / other,hot,9,Diaspora finance,True,False,False
+v2,claude-haiku-4-5,2,2,hot,Allocators / other,hot,9,Allocators / other,True,True,False
+v2,claude-haiku-4-5,2,3,hot,Allocators / other,hot,9,Diaspora finance,True,False,False
+v2,claude-haiku-4-5,3,1,hot,Founders,hot,8,Founders,True,True,False
+v2,claude-haiku-4-5,3,2,hot,Founders,hot,8,Founders,True,True,False
+v2,claude-haiku-4-5,3,3,hot,Founders,hot,8,Founders,True,True,False
+v2,claude-haiku-4-5,4,1,hot,Lawyers,hot,8,Lawyers,True,True,False
+v2,claude-haiku-4-5,4,2,hot,Lawyers,hot,8,Lawyers,True,True,False
+v2,claude-haiku-4-5,4,3,hot,Lawyers,hot,8,Lawyers,True,True,False
+v2,claude-haiku-4-5,5,1,hot,Allocators / other,hot,9,Allocators / other,True,True,False
+v2,claude-haiku-4-5,5,2,hot,Allocators / other,hot,9,Allocators / other,True,True,False
+v2,claude-haiku-4-5,5,3,hot,Allocators / other,hot,9,Allocators / other,True,True,False
+v2,claude-haiku-4-5,6,1,hot,Medical professionals,hot,8,Medical professionals,True,True,False
+v2,claude-haiku-4-5,6,2,hot,Medical professionals,hot,8,Medical professionals,True,True,False
+v2,claude-haiku-4-5,6,3,hot,Medical professionals,hot,8,Medical professionals,True,True,False
+v2,claude-haiku-4-5,7,1,hot,Founders,hot,8,Founders,True,True,False
+v2,claude-haiku-4-5,7,2,hot,Founders,hot,8,Founders,True,True,False
+v2,claude-haiku-4-5,7,3,hot,Founders,hot,8,Founders,True,True,False
+v2,claude-haiku-4-5,8,1,hot,Allocators / other,hot,9,Allocators / other,True,True,False
+v2,claude-haiku-4-5,8,2,hot,Allocators / other,hot,9,Allocators / other,True,True,False
+v2,claude-haiku-4-5,8,3,hot,Allocators / other,hot,9,Allocators / other,True,True,False
+v2,claude-haiku-4-5,9,1,hot,Academics,hot,8,Allocators / other,True,False,False
+v2,claude-haiku-4-5,9,2,hot,Academics,hot,8,Allocators / other,True,False,False
+v2,claude-haiku-4-5,9,3,hot,Academics,hot,8,Allocators / other,True,False,False
+v2,claude-haiku-4-5,10,1,hot,Medical professionals,hot,8,Medical professionals,True,True,False
+v2,claude-haiku-4-5,10,2,hot,Medical professionals,hot,8,Medical professionals,True,True,False
+v2,claude-haiku-4-5,10,3,hot,Medical professionals,hot,8,Medical professionals,True,True,False
+v2,claude-haiku-4-5,11,1,warm,Allocators / other,cold,2,Founders,False,False,False
+v2,claude-haiku-4-5,11,2,warm,Allocators / other,cold,2,Founders,False,False,False
+v2,claude-haiku-4-5,11,3,warm,Allocators / other,cold,2,Founders,False,False,False
+v2,claude-haiku-4-5,12,1,warm,Allocators / other,warm,5,Founders,True,False,False
+v2,claude-haiku-4-5,12,2,warm,Allocators / other,warm,5,Founders,True,False,False
+v2,claude-haiku-4-5,12,3,warm,Allocators / other,warm,5,Founders,True,False,False
+v2,claude-haiku-4-5,13,1,warm,Allocators / other,warm,5,Founders,True,False,False
+v2,claude-haiku-4-5,13,2,warm,Allocators / other,warm,5,Founders,True,False,False
+v2,claude-haiku-4-5,13,3,warm,Allocators / other,warm,5,Founders,True,False,False
+v2,claude-haiku-4-5,14,1,warm,Allocators / other,warm,4,Allocators / other,True,True,False
+v2,claude-haiku-4-5,14,2,warm,Allocators / other,warm,4,Allocators / other,True,True,False
+v2,claude-haiku-4-5,14,3,warm,Allocators / other,warm,4,Allocators / other,True,True,False
+v2,claude-haiku-4-5,15,1,warm,Lawyers,warm,5,Lawyers,True,True,False
+v2,claude-haiku-4-5,15,2,warm,Lawyers,warm,5,Lawyers,True,True,False
+v2,claude-haiku-4-5,15,3,warm,Lawyers,warm,5,Lawyers,True,True,False
+v2,claude-haiku-4-5,16,1,warm,Allocators / other,hot,8,Founders,False,False,False
+v2,claude-haiku-4-5,16,2,warm,Allocators / other,hot,8,Founders,False,False,False
+v2,claude-haiku-4-5,16,3,warm,Allocators / other,hot,8,Founders,False,False,False
+v2,claude-haiku-4-5,17,1,warm,Medical professionals,warm,6,Medical professionals,True,True,False
+v2,claude-haiku-4-5,17,2,warm,Medical professionals,warm,6,Medical professionals,True,True,False
+v2,claude-haiku-4-5,17,3,warm,Medical professionals,warm,6,Medical professionals,True,True,False
+v2,claude-haiku-4-5,18,1,warm,Academics,cold,2,Academics,False,True,False
+v2,claude-haiku-4-5,18,2,warm,Academics,cold,2,Academics,False,True,False
+v2,claude-haiku-4-5,18,3,warm,Academics,cold,2,Academics,False,True,False
+v2,claude-haiku-4-5,19,1,warm,Allocators / other,hot,7,Allocators / other,False,True,False
+v2,claude-haiku-4-5,19,2,warm,Allocators / other,warm,6,Allocators / other,True,True,False
+v2,claude-haiku-4-5,19,3,warm,Allocators / other,warm,6,Allocators / other,True,True,False
+v2,claude-haiku-4-5,20,1,warm,Diaspora finance,warm,6,Diaspora finance,True,True,False
+v2,claude-haiku-4-5,20,2,warm,Diaspora finance,warm,6,Diaspora finance,True,True,False
+v2,claude-haiku-4-5,20,3,warm,Diaspora finance,warm,6,Diaspora finance,True,True,False
+v2,claude-haiku-4-5,21,1,warm,Lawyers,warm,5,Lawyers,True,True,False
+v2,claude-haiku-4-5,21,2,warm,Lawyers,warm,5,Lawyers,True,True,False
+v2,claude-haiku-4-5,21,3,warm,Lawyers,warm,5,Lawyers,True,True,False
+v2,claude-haiku-4-5,22,1,hot,Diaspora finance,hot,7,Diaspora finance,True,True,False
+v2,claude-haiku-4-5,22,2,hot,Diaspora finance,hot,7,Diaspora finance,True,True,False
+v2,claude-haiku-4-5,22,3,hot,Diaspora finance,hot,7,Diaspora finance,True,True,False
+v2,claude-haiku-4-5,23,1,cold,Medical professionals,cold,2,Medical professionals,True,True,False
+v2,claude-haiku-4-5,23,2,cold,Medical professionals,cold,2,Medical professionals,True,True,False
+v2,claude-haiku-4-5,23,3,cold,Medical professionals,cold,2,Medical professionals,True,True,False
+v2,claude-haiku-4-5,24,1,cold,Allocators / other,cold,3,Allocators / other,True,True,False
+v2,claude-haiku-4-5,24,2,cold,Allocators / other,cold,3,Allocators / other,True,True,False
+v2,claude-haiku-4-5,24,3,cold,Allocators / other,cold,3,Allocators / other,True,True,False
+v2,claude-haiku-4-5,25,1,cold,Academics,cold,2,Academics,True,True,False
+v2,claude-haiku-4-5,25,2,cold,Academics,cold,2,Academics,True,True,False
+v2,claude-haiku-4-5,25,3,cold,Academics,cold,2,Academics,True,True,False
+v2,claude-haiku-4-5,26,1,cold,Allocators / other,cold,1,Allocators / other,True,True,False
+v2,claude-haiku-4-5,26,2,cold,Allocators / other,cold,1,Allocators / other,True,True,False
+v2,claude-haiku-4-5,26,3,cold,Allocators / other,cold,2,Allocators / other,True,True,False
+v2,claude-haiku-4-5,27,1,cold,Academics,cold,2,Academics,True,True,False
+v2,claude-haiku-4-5,27,2,cold,Academics,cold,2,Academics,True,True,False
+v2,claude-haiku-4-5,27,3,cold,Academics,cold,2,Academics,True,True,False
+v2,claude-haiku-4-5,28,1,cold,Lawyers,cold,2,Lawyers,True,True,False
+v2,claude-haiku-4-5,28,2,cold,Lawyers,cold,2,Lawyers,True,True,False
+v2,claude-haiku-4-5,28,3,cold,Lawyers,cold,2,Lawyers,True,True,False
+v2,claude-haiku-4-5,29,1,cold,Allocators / other,cold,2,Allocators / other,True,True,False
+v2,claude-haiku-4-5,29,2,cold,Allocators / other,cold,2,Allocators / other,True,True,False
+v2,claude-haiku-4-5,29,3,cold,Allocators / other,cold,2,Allocators / other,True,True,False
+v2,claude-haiku-4-5,30,1,cold,Academics,cold,2,Academics,True,True,False
+v2,claude-haiku-4-5,30,2,cold,Academics,cold,2,Academics,True,True,False
+v2,claude-haiku-4-5,30,3,cold,Academics,cold,2,Academics,True,True,False
+v2,claude-haiku-4-5,31,1,cold,Allocators / other,cold,2,Allocators / other,True,True,False
+v2,claude-haiku-4-5,31,2,cold,Allocators / other,cold,2,Allocators / other,True,True,False
+v2,claude-haiku-4-5,31,3,cold,Allocators / other,cold,2,Allocators / other,True,True,False
+v2,claude-haiku-4-5,32,1,cold,Medical professionals,cold,2,Medical professionals,True,True,False
+v2,claude-haiku-4-5,32,2,cold,Medical professionals,cold,2,Medical professionals,True,True,False
+v2,claude-haiku-4-5,32,3,cold,Medical professionals,cold,2,Medical professionals,True,True,False
+v2,claude-haiku-4-5,33,1,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v2,claude-haiku-4-5,33,2,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v2,claude-haiku-4-5,33,3,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v2,claude-haiku-4-5,34,1,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v2,claude-haiku-4-5,34,2,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v2,claude-haiku-4-5,34,3,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v2,claude-haiku-4-5,35,1,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v2,claude-haiku-4-5,35,2,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v2,claude-haiku-4-5,35,3,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v2,claude-haiku-4-5,36,1,warm,Allocators / other,warm,6,Founders,True,False,False
+v2,claude-haiku-4-5,36,2,warm,Allocators / other,warm,6,Founders,True,False,False
+v2,claude-haiku-4-5,36,3,warm,Allocators / other,warm,6,Founders,True,False,False
+v2,claude-haiku-4-5,37,1,warm,Allocators / other,hot,8,Allocators / other,False,True,False
+v2,claude-haiku-4-5,37,2,warm,Allocators / other,hot,8,Allocators / other,False,True,False
+v2,claude-haiku-4-5,37,3,warm,Allocators / other,hot,8,Allocators / other,False,True,False
+v2,claude-haiku-4-5,38,1,warm,Allocators / other,warm,5,Allocators / other,True,True,False
+v2,claude-haiku-4-5,38,2,warm,Allocators / other,warm,5,Allocators / other,True,True,False
+v2,claude-haiku-4-5,38,3,warm,Allocators / other,warm,5,Allocators / other,True,True,False
+v2,claude-haiku-4-5,39,1,warm,Founders,hot,7,Founders,False,True,False
+v2,claude-haiku-4-5,39,2,warm,Founders,hot,7,Founders,False,True,False
+v2,claude-haiku-4-5,39,3,warm,Founders,hot,7,Founders,False,True,False
+v2,claude-haiku-4-5,40,1,hot,Medical professionals,hot,7,Medical professionals,True,True,False
+v2,claude-haiku-4-5,40,2,hot,Medical professionals,hot,7,Medical professionals,True,True,False
+v2,claude-haiku-4-5,40,3,hot,Medical professionals,hot,7,Medical professionals,True,True,False
+v3,claude-sonnet-4-6,1,1,hot,Medical professionals,hot,9,Medical professionals,True,True,False
+v3,claude-sonnet-4-6,1,2,hot,Medical professionals,hot,9,Medical professionals,True,True,False
+v3,claude-sonnet-4-6,1,3,hot,Medical professionals,hot,9,Medical professionals,True,True,False
+v3,claude-sonnet-4-6,2,1,hot,Allocators / other,hot,9,Allocators / other,True,True,False
+v3,claude-sonnet-4-6,2,2,hot,Allocators / other,hot,9,Allocators / other,True,True,False
+v3,claude-sonnet-4-6,2,3,hot,Allocators / other,hot,9,Allocators / other,True,True,False
+v3,claude-sonnet-4-6,3,1,hot,Founders,hot,9,Founders,True,True,False
+v3,claude-sonnet-4-6,3,2,hot,Founders,hot,9,Founders,True,True,False
+v3,claude-sonnet-4-6,3,3,hot,Founders,hot,9,Founders,True,True,False
+v3,claude-sonnet-4-6,4,1,hot,Lawyers,hot,9,Lawyers,True,True,False
+v3,claude-sonnet-4-6,4,2,hot,Lawyers,hot,9,Lawyers,True,True,False
+v3,claude-sonnet-4-6,4,3,hot,Lawyers,hot,9,Lawyers,True,True,False
+v3,claude-sonnet-4-6,5,1,hot,Allocators / other,hot,10,Allocators / other,True,True,False
+v3,claude-sonnet-4-6,5,2,hot,Allocators / other,hot,10,Allocators / other,True,True,False
+v3,claude-sonnet-4-6,5,3,hot,Allocators / other,hot,10,Allocators / other,True,True,False
+v3,claude-sonnet-4-6,6,1,hot,Medical professionals,hot,9,Medical professionals,True,True,False
+v3,claude-sonnet-4-6,6,2,hot,Medical professionals,hot,9,Medical professionals,True,True,False
+v3,claude-sonnet-4-6,6,3,hot,Medical professionals,hot,9,Medical professionals,True,True,False
+v3,claude-sonnet-4-6,7,1,hot,Founders,hot,8,Founders,True,True,False
+v3,claude-sonnet-4-6,7,2,hot,Founders,hot,8,Founders,True,True,False
+v3,claude-sonnet-4-6,7,3,hot,Founders,hot,8,Founders,True,True,False
+v3,claude-sonnet-4-6,8,1,hot,Allocators / other,hot,9,Allocators / other,True,True,False
+v3,claude-sonnet-4-6,8,2,hot,Allocators / other,hot,9,Allocators / other,True,True,False
+v3,claude-sonnet-4-6,8,3,hot,Allocators / other,hot,9,Allocators / other,True,True,False
+v3,claude-sonnet-4-6,9,1,hot,Academics,hot,8,Allocators / other,True,False,False
+v3,claude-sonnet-4-6,9,2,hot,Academics,hot,8,Allocators / other,True,False,False
+v3,claude-sonnet-4-6,9,3,hot,Academics,hot,8,Allocators / other,True,False,False
+v3,claude-sonnet-4-6,10,1,hot,Medical professionals,hot,9,Medical professionals,True,True,False
+v3,claude-sonnet-4-6,10,2,hot,Medical professionals,hot,9,Medical professionals,True,True,False
+v3,claude-sonnet-4-6,10,3,hot,Medical professionals,hot,9,Medical professionals,True,True,False
+v3,claude-sonnet-4-6,11,1,warm,Allocators / other,cold,3,Allocators / other,False,True,False
+v3,claude-sonnet-4-6,11,2,warm,Allocators / other,cold,3,Allocators / other,False,True,False
+v3,claude-sonnet-4-6,11,3,warm,Allocators / other,cold,3,Allocators / other,False,True,False
+v3,claude-sonnet-4-6,12,1,warm,Allocators / other,warm,5,Allocators / other,True,True,False
+v3,claude-sonnet-4-6,12,2,warm,Allocators / other,warm,5,Allocators / other,True,True,False
+v3,claude-sonnet-4-6,12,3,warm,Allocators / other,warm,5,Allocators / other,True,True,False
+v3,claude-sonnet-4-6,13,1,warm,Allocators / other,warm,5,Allocators / other,True,True,False
+v3,claude-sonnet-4-6,13,2,warm,Allocators / other,warm,4,Allocators / other,True,True,False
+v3,claude-sonnet-4-6,13,3,warm,Allocators / other,warm,4,Allocators / other,True,True,False
+v3,claude-sonnet-4-6,14,1,warm,Allocators / other,warm,4,Allocators / other,True,True,False
+v3,claude-sonnet-4-6,14,2,warm,Allocators / other,warm,4,Allocators / other,True,True,False
+v3,claude-sonnet-4-6,14,3,warm,Allocators / other,warm,4,Allocators / other,True,True,False
+v3,claude-sonnet-4-6,15,1,warm,Lawyers,warm,5,Lawyers,True,True,False
+v3,claude-sonnet-4-6,15,2,warm,Lawyers,warm,5,Lawyers,True,True,False
+v3,claude-sonnet-4-6,15,3,warm,Lawyers,warm,5,Lawyers,True,True,False
+v3,claude-sonnet-4-6,16,1,warm,Allocators / other,hot,8,Allocators / other,False,True,False
+v3,claude-sonnet-4-6,16,2,warm,Allocators / other,hot,8,Allocators / other,False,True,False
+v3,claude-sonnet-4-6,16,3,warm,Allocators / other,hot,8,Allocators / other,False,True,False
+v3,claude-sonnet-4-6,17,1,warm,Medical professionals,warm,4,Medical professionals,True,True,False
+v3,claude-sonnet-4-6,17,2,warm,Medical professionals,warm,5,Medical professionals,True,True,False
+v3,claude-sonnet-4-6,17,3,warm,Medical professionals,warm,5,Medical professionals,True,True,False
+v3,claude-sonnet-4-6,18,1,warm,Academics,cold,3,Academics,False,True,False
+v3,claude-sonnet-4-6,18,2,warm,Academics,cold,3,Academics,False,True,False
+v3,claude-sonnet-4-6,18,3,warm,Academics,cold,3,Academics,False,True,False
+v3,claude-sonnet-4-6,19,1,warm,Allocators / other,hot,9,Allocators / other,False,True,False
+v3,claude-sonnet-4-6,19,2,warm,Allocators / other,hot,9,Allocators / other,False,True,False
+v3,claude-sonnet-4-6,19,3,warm,Allocators / other,hot,9,Allocators / other,False,True,False
+v3,claude-sonnet-4-6,20,1,warm,Diaspora finance,warm,6,Diaspora finance,True,True,False
+v3,claude-sonnet-4-6,20,2,warm,Diaspora finance,warm,6,Diaspora finance,True,True,False
+v3,claude-sonnet-4-6,20,3,warm,Diaspora finance,warm,6,Diaspora finance,True,True,False
+v3,claude-sonnet-4-6,21,1,warm,Lawyers,warm,4,Lawyers,True,True,False
+v3,claude-sonnet-4-6,21,2,warm,Lawyers,warm,4,Lawyers,True,True,False
+v3,claude-sonnet-4-6,21,3,warm,Lawyers,warm,4,Lawyers,True,True,False
+v3,claude-sonnet-4-6,22,1,hot,Diaspora finance,hot,7,Diaspora finance,True,True,False
+v3,claude-sonnet-4-6,22,2,hot,Diaspora finance,hot,7,Diaspora finance,True,True,False
+v3,claude-sonnet-4-6,22,3,hot,Diaspora finance,hot,7,Diaspora finance,True,True,False
+v3,claude-sonnet-4-6,23,1,cold,Medical professionals,cold,3,Medical professionals,True,True,False
+v3,claude-sonnet-4-6,23,2,cold,Medical professionals,cold,3,Medical professionals,True,True,False
+v3,claude-sonnet-4-6,23,3,cold,Medical professionals,cold,2,Medical professionals,True,True,False
+v3,claude-sonnet-4-6,24,1,cold,Allocators / other,cold,3,Allocators / other,True,True,False
+v3,claude-sonnet-4-6,24,2,cold,Allocators / other,cold,3,Allocators / other,True,True,False
+v3,claude-sonnet-4-6,24,3,cold,Allocators / other,cold,3,Allocators / other,True,True,False
+v3,claude-sonnet-4-6,25,1,cold,Academics,cold,2,Academics,True,True,False
+v3,claude-sonnet-4-6,25,2,cold,Academics,cold,2,Academics,True,True,False
+v3,claude-sonnet-4-6,25,3,cold,Academics,cold,2,Academics,True,True,False
+v3,claude-sonnet-4-6,26,1,cold,Allocators / other,cold,1,Allocators / other,True,True,False
+v3,claude-sonnet-4-6,26,2,cold,Allocators / other,cold,1,Allocators / other,True,True,False
+v3,claude-sonnet-4-6,26,3,cold,Allocators / other,cold,1,Allocators / other,True,True,False
+v3,claude-sonnet-4-6,27,1,cold,Academics,cold,2,Academics,True,True,False
+v3,claude-sonnet-4-6,27,2,cold,Academics,cold,2,Academics,True,True,False
+v3,claude-sonnet-4-6,27,3,cold,Academics,cold,2,Academics,True,True,False
+v3,claude-sonnet-4-6,28,1,cold,Lawyers,cold,2,Lawyers,True,True,False
+v3,claude-sonnet-4-6,28,2,cold,Lawyers,cold,2,Lawyers,True,True,False
+v3,claude-sonnet-4-6,28,3,cold,Lawyers,cold,2,Lawyers,True,True,False
+v3,claude-sonnet-4-6,29,1,cold,Allocators / other,cold,2,Allocators / other,True,True,False
+v3,claude-sonnet-4-6,29,2,cold,Allocators / other,cold,2,Allocators / other,True,True,False
+v3,claude-sonnet-4-6,29,3,cold,Allocators / other,cold,2,Allocators / other,True,True,False
+v3,claude-sonnet-4-6,30,1,cold,Academics,cold,3,Academics,True,True,False
+v3,claude-sonnet-4-6,30,2,cold,Academics,cold,3,Academics,True,True,False
+v3,claude-sonnet-4-6,30,3,cold,Academics,cold,3,Academics,True,True,False
+v3,claude-sonnet-4-6,31,1,cold,Allocators / other,cold,1,Allocators / other,True,True,False
+v3,claude-sonnet-4-6,31,2,cold,Allocators / other,cold,1,Allocators / other,True,True,False
+v3,claude-sonnet-4-6,31,3,cold,Allocators / other,cold,1,Allocators / other,True,True,False
+v3,claude-sonnet-4-6,32,1,cold,Medical professionals,cold,2,Medical professionals,True,True,False
+v3,claude-sonnet-4-6,32,2,cold,Medical professionals,cold,2,Medical professionals,True,True,False
+v3,claude-sonnet-4-6,32,3,cold,Medical professionals,cold,2,Medical professionals,True,True,False
+v3,claude-sonnet-4-6,33,1,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v3,claude-sonnet-4-6,33,2,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v3,claude-sonnet-4-6,33,3,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v3,claude-sonnet-4-6,34,1,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v3,claude-sonnet-4-6,34,2,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v3,claude-sonnet-4-6,34,3,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v3,claude-sonnet-4-6,35,1,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v3,claude-sonnet-4-6,35,2,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v3,claude-sonnet-4-6,35,3,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v3,claude-sonnet-4-6,36,1,warm,Allocators / other,warm,6,Allocators / other,True,True,False
+v3,claude-sonnet-4-6,36,2,warm,Allocators / other,warm,6,Allocators / other,True,True,False
+v3,claude-sonnet-4-6,36,3,warm,Allocators / other,warm,6,Allocators / other,True,True,False
+v3,claude-sonnet-4-6,37,1,warm,Allocators / other,hot,9,Allocators / other,False,True,False
+v3,claude-sonnet-4-6,37,2,warm,Allocators / other,hot,9,Allocators / other,False,True,False
+v3,claude-sonnet-4-6,37,3,warm,Allocators / other,hot,9,Allocators / other,False,True,False
+v3,claude-sonnet-4-6,38,1,warm,Allocators / other,warm,5,Allocators / other,True,True,False
+v3,claude-sonnet-4-6,38,2,warm,Allocators / other,warm,5,Allocators / other,True,True,False
+v3,claude-sonnet-4-6,38,3,warm,Allocators / other,warm,5,Allocators / other,True,True,False
+v3,claude-sonnet-4-6,39,1,warm,Founders,warm,6,Founders,True,True,False
+v3,claude-sonnet-4-6,39,2,warm,Founders,warm,6,Founders,True,True,False
+v3,claude-sonnet-4-6,39,3,warm,Founders,warm,6,Founders,True,True,False
+v3,claude-sonnet-4-6,40,1,hot,Medical professionals,hot,8,Medical professionals,True,True,False
+v3,claude-sonnet-4-6,40,2,hot,Medical professionals,hot,8,Medical professionals,True,True,False
+v3,claude-sonnet-4-6,40,3,hot,Medical professionals,hot,8,Medical professionals,True,True,False
+v3,claude-haiku-4-5,1,1,hot,Medical professionals,hot,9,Medical professionals,True,True,False
+v3,claude-haiku-4-5,1,2,hot,Medical professionals,hot,9,Medical professionals,True,True,False
+v3,claude-haiku-4-5,1,3,hot,Medical professionals,hot,8,Medical professionals,True,True,False
+v3,claude-haiku-4-5,2,1,hot,Allocators / other,hot,9,Diaspora finance,True,False,False
+v3,claude-haiku-4-5,2,2,hot,Allocators / other,hot,9,Allocators / other,True,True,False
+v3,claude-haiku-4-5,2,3,hot,Allocators / other,hot,9,Diaspora finance,True,False,False
+v3,claude-haiku-4-5,3,1,hot,Founders,hot,8,Founders,True,True,False
+v3,claude-haiku-4-5,3,2,hot,Founders,hot,8,Founders,True,True,False
+v3,claude-haiku-4-5,3,3,hot,Founders,hot,8,Founders,True,True,False
+v3,claude-haiku-4-5,4,1,hot,Lawyers,hot,8,Lawyers,True,True,False
+v3,claude-haiku-4-5,4,2,hot,Lawyers,hot,8,Lawyers,True,True,False
+v3,claude-haiku-4-5,4,3,hot,Lawyers,hot,8,Lawyers,True,True,False
+v3,claude-haiku-4-5,5,1,hot,Allocators / other,hot,9,Allocators / other,True,True,False
+v3,claude-haiku-4-5,5,2,hot,Allocators / other,hot,9,Allocators / other,True,True,False
+v3,claude-haiku-4-5,5,3,hot,Allocators / other,hot,9,Allocators / other,True,True,False
+v3,claude-haiku-4-5,6,1,hot,Medical professionals,hot,8,Medical professionals,True,True,False
+v3,claude-haiku-4-5,6,2,hot,Medical professionals,hot,8,Medical professionals,True,True,False
+v3,claude-haiku-4-5,6,3,hot,Medical professionals,hot,8,Medical professionals,True,True,False
+v3,claude-haiku-4-5,7,1,hot,Founders,hot,8,Founders,True,True,False
+v3,claude-haiku-4-5,7,2,hot,Founders,hot,8,Founders,True,True,False
+v3,claude-haiku-4-5,7,3,hot,Founders,hot,8,Founders,True,True,False
+v3,claude-haiku-4-5,8,1,hot,Allocators / other,hot,9,Allocators / other,True,True,False
+v3,claude-haiku-4-5,8,2,hot,Allocators / other,hot,9,Allocators / other,True,True,False
+v3,claude-haiku-4-5,8,3,hot,Allocators / other,hot,9,Allocators / other,True,True,False
+v3,claude-haiku-4-5,9,1,hot,Academics,warm,6,Allocators / other,False,False,False
+v3,claude-haiku-4-5,9,2,hot,Academics,hot,7,Allocators / other,True,False,False
+v3,claude-haiku-4-5,9,3,hot,Academics,hot,7,Allocators / other,True,False,False
+v3,claude-haiku-4-5,10,1,hot,Medical professionals,hot,8,Medical professionals,True,True,False
+v3,claude-haiku-4-5,10,2,hot,Medical professionals,hot,8,Medical professionals,True,True,False
+v3,claude-haiku-4-5,10,3,hot,Medical professionals,hot,8,Medical professionals,True,True,False
+v3,claude-haiku-4-5,11,1,warm,Allocators / other,cold,2,Founders,False,False,False
+v3,claude-haiku-4-5,11,2,warm,Allocators / other,cold,2,Founders,False,False,False
+v3,claude-haiku-4-5,11,3,warm,Allocators / other,cold,2,Founders,False,False,False
+v3,claude-haiku-4-5,12,1,warm,Allocators / other,warm,5,Allocators / other,True,True,False
+v3,claude-haiku-4-5,12,2,warm,Allocators / other,warm,5,Allocators / other,True,True,False
+v3,claude-haiku-4-5,12,3,warm,Allocators / other,warm,5,Allocators / other,True,True,False
+v3,claude-haiku-4-5,13,1,warm,Allocators / other,warm,5,Allocators / other,True,True,False
+v3,claude-haiku-4-5,13,2,warm,Allocators / other,warm,5,Allocators / other,True,True,False
+v3,claude-haiku-4-5,13,3,warm,Allocators / other,warm,5,Founders,True,False,False
+v3,claude-haiku-4-5,14,1,warm,Allocators / other,warm,5,Allocators / other,True,True,False
+v3,claude-haiku-4-5,14,2,warm,Allocators / other,warm,5,Allocators / other,True,True,False
+v3,claude-haiku-4-5,14,3,warm,Allocators / other,warm,5,Allocators / other,True,True,False
+v3,claude-haiku-4-5,15,1,warm,Lawyers,warm,5,Lawyers,True,True,False
+v3,claude-haiku-4-5,15,2,warm,Lawyers,warm,5,Lawyers,True,True,False
+v3,claude-haiku-4-5,15,3,warm,Lawyers,warm,5,Lawyers,True,True,False
+v3,claude-haiku-4-5,16,1,warm,Allocators / other,hot,8,Founders,False,False,False
+v3,claude-haiku-4-5,16,2,warm,Allocators / other,hot,8,Allocators / other,False,True,False
+v3,claude-haiku-4-5,16,3,warm,Allocators / other,hot,8,Allocators / other,False,True,False
+v3,claude-haiku-4-5,17,1,warm,Medical professionals,warm,5,Medical professionals,True,True,False
+v3,claude-haiku-4-5,17,2,warm,Medical professionals,warm,5,Medical professionals,True,True,False
+v3,claude-haiku-4-5,17,3,warm,Medical professionals,warm,5,Medical professionals,True,True,False
+v3,claude-haiku-4-5,18,1,warm,Academics,cold,2,Academics,False,True,False
+v3,claude-haiku-4-5,18,2,warm,Academics,cold,2,Academics,False,True,False
+v3,claude-haiku-4-5,18,3,warm,Academics,cold,2,Academics,False,True,False
+v3,claude-haiku-4-5,19,1,warm,Allocators / other,hot,8,Allocators / other,False,True,False
+v3,claude-haiku-4-5,19,2,warm,Allocators / other,hot,7,Allocators / other,False,True,False
+v3,claude-haiku-4-5,19,3,warm,Allocators / other,hot,8,Allocators / other,False,True,False
+v3,claude-haiku-4-5,20,1,warm,Diaspora finance,warm,6,Diaspora finance,True,True,False
+v3,claude-haiku-4-5,20,2,warm,Diaspora finance,warm,6,Diaspora finance,True,True,False
+v3,claude-haiku-4-5,20,3,warm,Diaspora finance,warm,6,Diaspora finance,True,True,False
+v3,claude-haiku-4-5,21,1,warm,Lawyers,warm,5,Lawyers,True,True,False
+v3,claude-haiku-4-5,21,2,warm,Lawyers,warm,6,Lawyers,True,True,False
+v3,claude-haiku-4-5,21,3,warm,Lawyers,warm,5,Lawyers,True,True,False
+v3,claude-haiku-4-5,22,1,hot,Diaspora finance,hot,7,Diaspora finance,True,True,False
+v3,claude-haiku-4-5,22,2,hot,Diaspora finance,hot,7,Diaspora finance,True,True,False
+v3,claude-haiku-4-5,22,3,hot,Diaspora finance,hot,7,Diaspora finance,True,True,False
+v3,claude-haiku-4-5,23,1,cold,Medical professionals,cold,2,Medical professionals,True,True,False
+v3,claude-haiku-4-5,23,2,cold,Medical professionals,cold,2,Medical professionals,True,True,False
+v3,claude-haiku-4-5,23,3,cold,Medical professionals,cold,2,Medical professionals,True,True,False
+v3,claude-haiku-4-5,24,1,cold,Allocators / other,cold,3,Allocators / other,True,True,False
+v3,claude-haiku-4-5,24,2,cold,Allocators / other,cold,3,Allocators / other,True,True,False
+v3,claude-haiku-4-5,24,3,cold,Allocators / other,cold,3,Allocators / other,True,True,False
+v3,claude-haiku-4-5,25,1,cold,Academics,cold,2,Academics,True,True,False
+v3,claude-haiku-4-5,25,2,cold,Academics,cold,2,Academics,True,True,False
+v3,claude-haiku-4-5,25,3,cold,Academics,cold,2,Academics,True,True,False
+v3,claude-haiku-4-5,26,1,cold,Allocators / other,cold,2,Allocators / other,True,True,False
+v3,claude-haiku-4-5,26,2,cold,Allocators / other,cold,1,Allocators / other,True,True,False
+v3,claude-haiku-4-5,26,3,cold,Allocators / other,cold,2,Allocators / other,True,True,False
+v3,claude-haiku-4-5,27,1,cold,Academics,cold,2,Academics,True,True,False
+v3,claude-haiku-4-5,27,2,cold,Academics,cold,2,Academics,True,True,False
+v3,claude-haiku-4-5,27,3,cold,Academics,cold,2,Academics,True,True,False
+v3,claude-haiku-4-5,28,1,cold,Lawyers,cold,2,Lawyers,True,True,False
+v3,claude-haiku-4-5,28,2,cold,Lawyers,cold,2,Lawyers,True,True,False
+v3,claude-haiku-4-5,28,3,cold,Lawyers,cold,2,Lawyers,True,True,False
+v3,claude-haiku-4-5,29,1,cold,Allocators / other,cold,2,Allocators / other,True,True,False
+v3,claude-haiku-4-5,29,2,cold,Allocators / other,cold,2,Allocators / other,True,True,False
+v3,claude-haiku-4-5,29,3,cold,Allocators / other,cold,2,Allocators / other,True,True,False
+v3,claude-haiku-4-5,30,1,cold,Academics,cold,2,Academics,True,True,False
+v3,claude-haiku-4-5,30,2,cold,Academics,cold,2,Academics,True,True,False
+v3,claude-haiku-4-5,30,3,cold,Academics,cold,2,Academics,True,True,False
+v3,claude-haiku-4-5,31,1,cold,Allocators / other,cold,2,Allocators / other,True,True,False
+v3,claude-haiku-4-5,31,2,cold,Allocators / other,cold,2,Allocators / other,True,True,False
+v3,claude-haiku-4-5,31,3,cold,Allocators / other,cold,2,Allocators / other,True,True,False
+v3,claude-haiku-4-5,32,1,cold,Medical professionals,cold,2,Medical professionals,True,True,False
+v3,claude-haiku-4-5,32,2,cold,Medical professionals,cold,2,Medical professionals,True,True,False
+v3,claude-haiku-4-5,32,3,cold,Medical professionals,cold,2,Medical professionals,True,True,False
+v3,claude-haiku-4-5,33,1,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v3,claude-haiku-4-5,33,2,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v3,claude-haiku-4-5,33,3,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v3,claude-haiku-4-5,34,1,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v3,claude-haiku-4-5,34,2,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v3,claude-haiku-4-5,34,3,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v3,claude-haiku-4-5,35,1,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v3,claude-haiku-4-5,35,2,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v3,claude-haiku-4-5,35,3,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v3,claude-haiku-4-5,36,1,warm,Allocators / other,warm,6,Founders,True,False,False
+v3,claude-haiku-4-5,36,2,warm,Allocators / other,warm,6,Founders,True,False,False
+v3,claude-haiku-4-5,36,3,warm,Allocators / other,warm,6,Founders,True,False,False
+v3,claude-haiku-4-5,37,1,warm,Allocators / other,hot,8,Allocators / other,False,True,False
+v3,claude-haiku-4-5,37,2,warm,Allocators / other,hot,9,Allocators / other,False,True,False
+v3,claude-haiku-4-5,37,3,warm,Allocators / other,hot,8,Allocators / other,False,True,False
+v3,claude-haiku-4-5,38,1,warm,Allocators / other,warm,6,Allocators / other,True,True,False
+v3,claude-haiku-4-5,38,2,warm,Allocators / other,warm,5,Allocators / other,True,True,False
+v3,claude-haiku-4-5,38,3,warm,Allocators / other,warm,5,Allocators / other,True,True,False
+v3,claude-haiku-4-5,39,1,warm,Founders,hot,7,Founders,False,True,False
+v3,claude-haiku-4-5,39,2,warm,Founders,hot,7,Founders,False,True,False
+v3,claude-haiku-4-5,39,3,warm,Founders,hot,7,Founders,False,True,False
+v3,claude-haiku-4-5,40,1,hot,Medical professionals,hot,7,Medical professionals,True,True,False
+v3,claude-haiku-4-5,40,2,hot,Medical professionals,hot,7,Medical professionals,True,True,False
+v3,claude-haiku-4-5,40,3,hot,Medical professionals,hot,7,Medical professionals,True,True,False
+v4,claude-sonnet-4-6,1,1,hot,Medical professionals,hot,9,Medical professionals,True,True,False
+v4,claude-sonnet-4-6,1,2,hot,Medical professionals,hot,9,Medical professionals,True,True,False
+v4,claude-sonnet-4-6,1,3,hot,Medical professionals,hot,9,Medical professionals,True,True,False
+v4,claude-sonnet-4-6,2,1,hot,Allocators / other,hot,9,Allocators / other,True,True,False
+v4,claude-sonnet-4-6,2,2,hot,Allocators / other,hot,9,Allocators / other,True,True,False
+v4,claude-sonnet-4-6,2,3,hot,Allocators / other,hot,9,Allocators / other,True,True,False
+v4,claude-sonnet-4-6,3,1,hot,Founders,hot,9,Founders,True,True,False
+v4,claude-sonnet-4-6,3,2,hot,Founders,hot,9,Founders,True,True,False
+v4,claude-sonnet-4-6,3,3,hot,Founders,hot,9,Founders,True,True,False
+v4,claude-sonnet-4-6,4,1,hot,Lawyers,hot,9,Lawyers,True,True,False
+v4,claude-sonnet-4-6,4,2,hot,Lawyers,hot,9,Lawyers,True,True,False
+v4,claude-sonnet-4-6,4,3,hot,Lawyers,hot,9,Lawyers,True,True,False
+v4,claude-sonnet-4-6,5,1,hot,Allocators / other,hot,10,Allocators / other,True,True,False
+v4,claude-sonnet-4-6,5,2,hot,Allocators / other,warm,6,Allocators / other,False,True,True
+v4,claude-sonnet-4-6,5,3,hot,Allocators / other,hot,10,Allocators / other,True,True,False
+v4,claude-sonnet-4-6,6,1,hot,Medical professionals,hot,9,Medical professionals,True,True,False
+v4,claude-sonnet-4-6,6,2,hot,Medical professionals,hot,9,Medical professionals,True,True,False
+v4,claude-sonnet-4-6,6,3,hot,Medical professionals,hot,9,Medical professionals,True,True,False
+v4,claude-sonnet-4-6,7,1,hot,Founders,hot,8,Founders,True,True,False
+v4,claude-sonnet-4-6,7,2,hot,Founders,hot,8,Founders,True,True,False
+v4,claude-sonnet-4-6,7,3,hot,Founders,hot,8,Founders,True,True,False
+v4,claude-sonnet-4-6,8,1,hot,Allocators / other,hot,9,Allocators / other,True,True,False
+v4,claude-sonnet-4-6,8,2,hot,Allocators / other,hot,9,Allocators / other,True,True,False
+v4,claude-sonnet-4-6,8,3,hot,Allocators / other,hot,9,Allocators / other,True,True,False
+v4,claude-sonnet-4-6,9,1,hot,Academics,hot,8,Allocators / other,True,False,False
+v4,claude-sonnet-4-6,9,2,hot,Academics,hot,8,Allocators / other,True,False,False
+v4,claude-sonnet-4-6,9,3,hot,Academics,hot,8,Allocators / other,True,False,False
+v4,claude-sonnet-4-6,10,1,hot,Medical professionals,hot,9,Medical professionals,True,True,False
+v4,claude-sonnet-4-6,10,2,hot,Medical professionals,hot,9,Medical professionals,True,True,False
+v4,claude-sonnet-4-6,10,3,hot,Medical professionals,hot,9,Medical professionals,True,True,False
+v4,claude-sonnet-4-6,11,1,warm,Allocators / other,cold,3,Allocators / other,False,True,False
+v4,claude-sonnet-4-6,11,2,warm,Allocators / other,cold,3,Allocators / other,False,True,False
+v4,claude-sonnet-4-6,11,3,warm,Allocators / other,cold,3,Allocators / other,False,True,False
+v4,claude-sonnet-4-6,12,1,warm,Allocators / other,warm,5,Allocators / other,True,True,False
+v4,claude-sonnet-4-6,12,2,warm,Allocators / other,warm,5,Allocators / other,True,True,False
+v4,claude-sonnet-4-6,12,3,warm,Allocators / other,warm,5,Allocators / other,True,True,False
+v4,claude-sonnet-4-6,13,1,warm,Allocators / other,warm,5,Allocators / other,True,True,False
+v4,claude-sonnet-4-6,13,2,warm,Allocators / other,warm,5,Allocators / other,True,True,False
+v4,claude-sonnet-4-6,13,3,warm,Allocators / other,warm,5,Allocators / other,True,True,False
+v4,claude-sonnet-4-6,14,1,warm,Allocators / other,warm,4,Allocators / other,True,True,False
+v4,claude-sonnet-4-6,14,2,warm,Allocators / other,warm,4,Allocators / other,True,True,False
+v4,claude-sonnet-4-6,14,3,warm,Allocators / other,warm,4,Allocators / other,True,True,False
+v4,claude-sonnet-4-6,15,1,warm,Lawyers,warm,5,Lawyers,True,True,False
+v4,claude-sonnet-4-6,15,2,warm,Lawyers,warm,5,Lawyers,True,True,False
+v4,claude-sonnet-4-6,15,3,warm,Lawyers,warm,5,Lawyers,True,True,False
+v4,claude-sonnet-4-6,16,1,warm,Allocators / other,hot,8,Allocators / other,False,True,False
+v4,claude-sonnet-4-6,16,2,warm,Allocators / other,hot,8,Allocators / other,False,True,False
+v4,claude-sonnet-4-6,16,3,warm,Allocators / other,hot,8,Allocators / other,False,True,False
+v4,claude-sonnet-4-6,17,1,warm,Medical professionals,warm,5,Medical professionals,True,True,False
+v4,claude-sonnet-4-6,17,2,warm,Medical professionals,warm,5,Medical professionals,True,True,False
+v4,claude-sonnet-4-6,17,3,warm,Medical professionals,warm,5,Medical professionals,True,True,False
+v4,claude-sonnet-4-6,18,1,warm,Academics,cold,3,Academics,False,True,False
+v4,claude-sonnet-4-6,18,2,warm,Academics,cold,3,Academics,False,True,False
+v4,claude-sonnet-4-6,18,3,warm,Academics,cold,3,Academics,False,True,False
+v4,claude-sonnet-4-6,19,1,warm,Allocators / other,warm,6,Allocators / other,True,True,True
+v4,claude-sonnet-4-6,19,2,warm,Allocators / other,warm,6,Allocators / other,True,True,True
+v4,claude-sonnet-4-6,19,3,warm,Allocators / other,warm,6,Allocators / other,True,True,True
+v4,claude-sonnet-4-6,20,1,warm,Diaspora finance,warm,6,Diaspora finance,True,True,False
+v4,claude-sonnet-4-6,20,2,warm,Diaspora finance,warm,6,Diaspora finance,True,True,False
+v4,claude-sonnet-4-6,20,3,warm,Diaspora finance,warm,6,Diaspora finance,True,True,False
+v4,claude-sonnet-4-6,21,1,warm,Lawyers,warm,4,Lawyers,True,True,False
+v4,claude-sonnet-4-6,21,2,warm,Lawyers,warm,4,Lawyers,True,True,False
+v4,claude-sonnet-4-6,21,3,warm,Lawyers,warm,4,Lawyers,True,True,False
+v4,claude-sonnet-4-6,22,1,hot,Diaspora finance,hot,7,Diaspora finance,True,True,False
+v4,claude-sonnet-4-6,22,2,hot,Diaspora finance,hot,7,Diaspora finance,True,True,False
+v4,claude-sonnet-4-6,22,3,hot,Diaspora finance,hot,7,Allocators / other,True,False,False
+v4,claude-sonnet-4-6,23,1,cold,Medical professionals,cold,3,Medical professionals,True,True,False
+v4,claude-sonnet-4-6,23,2,cold,Medical professionals,cold,3,Medical professionals,True,True,False
+v4,claude-sonnet-4-6,23,3,cold,Medical professionals,cold,3,Medical professionals,True,True,False
+v4,claude-sonnet-4-6,24,1,cold,Allocators / other,cold,2,Allocators / other,True,True,False
+v4,claude-sonnet-4-6,24,2,cold,Allocators / other,cold,3,Allocators / other,True,True,False
+v4,claude-sonnet-4-6,24,3,cold,Allocators / other,cold,3,Allocators / other,True,True,False
+v4,claude-sonnet-4-6,25,1,cold,Academics,cold,2,Academics,True,True,False
+v4,claude-sonnet-4-6,25,2,cold,Academics,cold,2,Academics,True,True,False
+v4,claude-sonnet-4-6,25,3,cold,Academics,cold,2,Academics,True,True,False
+v4,claude-sonnet-4-6,26,1,cold,Allocators / other,cold,1,Allocators / other,True,True,False
+v4,claude-sonnet-4-6,26,2,cold,Allocators / other,cold,1,Allocators / other,True,True,False
+v4,claude-sonnet-4-6,26,3,cold,Allocators / other,cold,1,Allocators / other,True,True,False
+v4,claude-sonnet-4-6,27,1,cold,Academics,cold,2,Academics,True,True,False
+v4,claude-sonnet-4-6,27,2,cold,Academics,cold,2,Academics,True,True,False
+v4,claude-sonnet-4-6,27,3,cold,Academics,cold,2,Academics,True,True,False
+v4,claude-sonnet-4-6,28,1,cold,Lawyers,cold,2,Lawyers,True,True,False
+v4,claude-sonnet-4-6,28,2,cold,Lawyers,cold,2,Lawyers,True,True,False
+v4,claude-sonnet-4-6,28,3,cold,Lawyers,cold,2,Lawyers,True,True,False
+v4,claude-sonnet-4-6,29,1,cold,Allocators / other,cold,2,Allocators / other,True,True,False
+v4,claude-sonnet-4-6,29,2,cold,Allocators / other,cold,2,Allocators / other,True,True,False
+v4,claude-sonnet-4-6,29,3,cold,Allocators / other,cold,2,Allocators / other,True,True,False
+v4,claude-sonnet-4-6,30,1,cold,Academics,cold,3,Academics,True,True,False
+v4,claude-sonnet-4-6,30,2,cold,Academics,cold,3,Academics,True,True,False
+v4,claude-sonnet-4-6,30,3,cold,Academics,cold,3,Academics,True,True,False
+v4,claude-sonnet-4-6,31,1,cold,Allocators / other,cold,1,Allocators / other,True,True,False
+v4,claude-sonnet-4-6,31,2,cold,Allocators / other,cold,1,Allocators / other,True,True,False
+v4,claude-sonnet-4-6,31,3,cold,Allocators / other,cold,1,Allocators / other,True,True,False
+v4,claude-sonnet-4-6,32,1,cold,Medical professionals,cold,2,Medical professionals,True,True,False
+v4,claude-sonnet-4-6,32,2,cold,Medical professionals,cold,2,Medical professionals,True,True,False
+v4,claude-sonnet-4-6,32,3,cold,Medical professionals,cold,2,Medical professionals,True,True,False
+v4,claude-sonnet-4-6,33,1,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v4,claude-sonnet-4-6,33,2,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v4,claude-sonnet-4-6,33,3,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v4,claude-sonnet-4-6,34,1,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v4,claude-sonnet-4-6,34,2,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v4,claude-sonnet-4-6,34,3,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v4,claude-sonnet-4-6,35,1,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v4,claude-sonnet-4-6,35,2,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v4,claude-sonnet-4-6,35,3,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v4,claude-sonnet-4-6,36,1,warm,Allocators / other,warm,6,Allocators / other,True,True,False
+v4,claude-sonnet-4-6,36,2,warm,Allocators / other,warm,6,Allocators / other,True,True,False
+v4,claude-sonnet-4-6,36,3,warm,Allocators / other,warm,5,Allocators / other,True,True,False
+v4,claude-sonnet-4-6,37,1,warm,Allocators / other,hot,8,Allocators / other,False,True,False
+v4,claude-sonnet-4-6,37,2,warm,Allocators / other,hot,9,Allocators / other,False,True,False
+v4,claude-sonnet-4-6,37,3,warm,Allocators / other,hot,8,Allocators / other,False,True,False
+v4,claude-sonnet-4-6,38,1,warm,Allocators / other,warm,5,Allocators / other,True,True,False
+v4,claude-sonnet-4-6,38,2,warm,Allocators / other,warm,5,Allocators / other,True,True,False
+v4,claude-sonnet-4-6,38,3,warm,Allocators / other,warm,5,Allocators / other,True,True,False
+v4,claude-sonnet-4-6,39,1,warm,Founders,hot,7,Founders,False,True,False
+v4,claude-sonnet-4-6,39,2,warm,Founders,hot,7,Founders,False,True,False
+v4,claude-sonnet-4-6,39,3,warm,Founders,hot,7,Founders,False,True,False
+v4,claude-sonnet-4-6,40,1,hot,Medical professionals,hot,8,Medical professionals,True,True,False
+v4,claude-sonnet-4-6,40,2,hot,Medical professionals,hot,8,Medical professionals,True,True,False
+v4,claude-sonnet-4-6,40,3,hot,Medical professionals,hot,8,Medical professionals,True,True,False
+v4,claude-haiku-4-5,1,1,hot,Medical professionals,hot,9,Medical professionals,True,True,False
+v4,claude-haiku-4-5,1,2,hot,Medical professionals,hot,9,Medical professionals,True,True,False
+v4,claude-haiku-4-5,1,3,hot,Medical professionals,hot,9,Medical professionals,True,True,False
+v4,claude-haiku-4-5,2,1,hot,Allocators / other,hot,9,Diaspora finance,True,False,False
+v4,claude-haiku-4-5,2,2,hot,Allocators / other,hot,8,Diaspora finance,True,False,False
+v4,claude-haiku-4-5,2,3,hot,Allocators / other,hot,9,Allocators / other,True,True,False
+v4,claude-haiku-4-5,3,1,hot,Founders,hot,8,Founders,True,True,False
+v4,claude-haiku-4-5,3,2,hot,Founders,hot,8,Founders,True,True,False
+v4,claude-haiku-4-5,3,3,hot,Founders,hot,8,Founders,True,True,False
+v4,claude-haiku-4-5,4,1,hot,Lawyers,hot,8,Lawyers,True,True,False
+v4,claude-haiku-4-5,4,2,hot,Lawyers,hot,8,Lawyers,True,True,False
+v4,claude-haiku-4-5,4,3,hot,Lawyers,hot,8,Lawyers,True,True,False
+v4,claude-haiku-4-5,5,1,hot,Allocators / other,hot,9,Allocators / other,True,True,False
+v4,claude-haiku-4-5,5,2,hot,Allocators / other,hot,9,Allocators / other,True,True,False
+v4,claude-haiku-4-5,5,3,hot,Allocators / other,hot,9,Allocators / other,True,True,False
+v4,claude-haiku-4-5,6,1,hot,Medical professionals,hot,8,Medical professionals,True,True,False
+v4,claude-haiku-4-5,6,2,hot,Medical professionals,hot,8,Medical professionals,True,True,False
+v4,claude-haiku-4-5,6,3,hot,Medical professionals,hot,8,Medical professionals,True,True,False
+v4,claude-haiku-4-5,7,1,hot,Founders,hot,8,Founders,True,True,False
+v4,claude-haiku-4-5,7,2,hot,Founders,hot,8,Founders,True,True,False
+v4,claude-haiku-4-5,7,3,hot,Founders,hot,8,Founders,True,True,False
+v4,claude-haiku-4-5,8,1,hot,Allocators / other,hot,9,Allocators / other,True,True,False
+v4,claude-haiku-4-5,8,2,hot,Allocators / other,hot,9,Allocators / other,True,True,False
+v4,claude-haiku-4-5,8,3,hot,Allocators / other,hot,9,Allocators / other,True,True,False
+v4,claude-haiku-4-5,9,1,hot,Academics,hot,8,Allocators / other,True,False,False
+v4,claude-haiku-4-5,9,2,hot,Academics,hot,8,Allocators / other,True,False,False
+v4,claude-haiku-4-5,9,3,hot,Academics,hot,8,Allocators / other,True,False,False
+v4,claude-haiku-4-5,10,1,hot,Medical professionals,hot,8,Medical professionals,True,True,False
+v4,claude-haiku-4-5,10,2,hot,Medical professionals,hot,8,Medical professionals,True,True,False
+v4,claude-haiku-4-5,10,3,hot,Medical professionals,hot,8,Medical professionals,True,True,False
+v4,claude-haiku-4-5,11,1,warm,Allocators / other,cold,2,Founders,False,False,False
+v4,claude-haiku-4-5,11,2,warm,Allocators / other,cold,2,Founders,False,False,False
+v4,claude-haiku-4-5,11,3,warm,Allocators / other,cold,2,Founders,False,False,False
+v4,claude-haiku-4-5,12,1,warm,Allocators / other,warm,5,Founders,True,False,False
+v4,claude-haiku-4-5,12,2,warm,Allocators / other,warm,5,Founders,True,False,False
+v4,claude-haiku-4-5,12,3,warm,Allocators / other,warm,5,Allocators / other,True,True,False
+v4,claude-haiku-4-5,13,1,warm,Allocators / other,warm,5,Allocators / other,True,True,False
+v4,claude-haiku-4-5,13,2,warm,Allocators / other,warm,5,Allocators / other,True,True,False
+v4,claude-haiku-4-5,13,3,warm,Allocators / other,warm,4,Allocators / other,True,True,False
+v4,claude-haiku-4-5,14,1,warm,Allocators / other,warm,5,Allocators / other,True,True,False
+v4,claude-haiku-4-5,14,2,warm,Allocators / other,warm,5,Allocators / other,True,True,False
+v4,claude-haiku-4-5,14,3,warm,Allocators / other,warm,5,Allocators / other,True,True,False
+v4,claude-haiku-4-5,15,1,warm,Lawyers,warm,6,Lawyers,True,True,False
+v4,claude-haiku-4-5,15,2,warm,Lawyers,warm,5,Lawyers,True,True,False
+v4,claude-haiku-4-5,15,3,warm,Lawyers,warm,5,Lawyers,True,True,False
+v4,claude-haiku-4-5,16,1,warm,Allocators / other,hot,8,Allocators / other,False,True,False
+v4,claude-haiku-4-5,16,2,warm,Allocators / other,hot,8,Allocators / other,False,True,False
+v4,claude-haiku-4-5,16,3,warm,Allocators / other,hot,8,Founders,False,False,False
+v4,claude-haiku-4-5,17,1,warm,Medical professionals,warm,5,Medical professionals,True,True,False
+v4,claude-haiku-4-5,17,2,warm,Medical professionals,warm,5,Medical professionals,True,True,False
+v4,claude-haiku-4-5,17,3,warm,Medical professionals,warm,5,Medical professionals,True,True,False
+v4,claude-haiku-4-5,18,1,warm,Academics,cold,2,Academics,False,True,False
+v4,claude-haiku-4-5,18,2,warm,Academics,cold,2,Academics,False,True,False
+v4,claude-haiku-4-5,18,3,warm,Academics,cold,2,Academics,False,True,False
+v4,claude-haiku-4-5,19,1,warm,Allocators / other,warm,6,Allocators / other,True,True,False
+v4,claude-haiku-4-5,19,2,warm,Allocators / other,warm,6,Allocators / other,True,True,False
+v4,claude-haiku-4-5,19,3,warm,Allocators / other,warm,6,Allocators / other,True,True,True
+v4,claude-haiku-4-5,20,1,warm,Diaspora finance,warm,6,Diaspora finance,True,True,False
+v4,claude-haiku-4-5,20,2,warm,Diaspora finance,warm,6,Diaspora finance,True,True,False
+v4,claude-haiku-4-5,20,3,warm,Diaspora finance,warm,6,Diaspora finance,True,True,False
+v4,claude-haiku-4-5,21,1,warm,Lawyers,warm,5,Lawyers,True,True,False
+v4,claude-haiku-4-5,21,2,warm,Lawyers,warm,5,Lawyers,True,True,False
+v4,claude-haiku-4-5,21,3,warm,Lawyers,warm,5,Lawyers,True,True,False
+v4,claude-haiku-4-5,22,1,hot,Diaspora finance,warm,6,Diaspora finance,False,True,True
+v4,claude-haiku-4-5,22,2,hot,Diaspora finance,hot,7,Diaspora finance,True,True,False
+v4,claude-haiku-4-5,22,3,hot,Diaspora finance,hot,7,Diaspora finance,True,True,False
+v4,claude-haiku-4-5,23,1,cold,Medical professionals,cold,2,Medical professionals,True,True,False
+v4,claude-haiku-4-5,23,2,cold,Medical professionals,cold,2,Medical professionals,True,True,False
+v4,claude-haiku-4-5,23,3,cold,Medical professionals,cold,2,Medical professionals,True,True,False
+v4,claude-haiku-4-5,24,1,cold,Allocators / other,cold,3,Allocators / other,True,True,False
+v4,claude-haiku-4-5,24,2,cold,Allocators / other,cold,3,Allocators / other,True,True,False
+v4,claude-haiku-4-5,24,3,cold,Allocators / other,cold,3,Allocators / other,True,True,False
+v4,claude-haiku-4-5,25,1,cold,Academics,cold,2,Academics,True,True,False
+v4,claude-haiku-4-5,25,2,cold,Academics,cold,2,Academics,True,True,False
+v4,claude-haiku-4-5,25,3,cold,Academics,cold,2,Academics,True,True,False
+v4,claude-haiku-4-5,26,1,cold,Allocators / other,cold,1,Allocators / other,True,True,False
+v4,claude-haiku-4-5,26,2,cold,Allocators / other,cold,1,Allocators / other,True,True,False
+v4,claude-haiku-4-5,26,3,cold,Allocators / other,cold,1,Allocators / other,True,True,False
+v4,claude-haiku-4-5,27,1,cold,Academics,cold,2,Academics,True,True,False
+v4,claude-haiku-4-5,27,2,cold,Academics,cold,2,Academics,True,True,False
+v4,claude-haiku-4-5,27,3,cold,Academics,cold,2,Academics,True,True,False
+v4,claude-haiku-4-5,28,1,cold,Lawyers,cold,2,Lawyers,True,True,False
+v4,claude-haiku-4-5,28,2,cold,Lawyers,cold,2,Lawyers,True,True,False
+v4,claude-haiku-4-5,28,3,cold,Lawyers,cold,2,Lawyers,True,True,False
+v4,claude-haiku-4-5,29,1,cold,Allocators / other,cold,2,Allocators / other,True,True,False
+v4,claude-haiku-4-5,29,2,cold,Allocators / other,cold,2,Allocators / other,True,True,False
+v4,claude-haiku-4-5,29,3,cold,Allocators / other,cold,2,Allocators / other,True,True,False
+v4,claude-haiku-4-5,30,1,cold,Academics,cold,2,Academics,True,True,False
+v4,claude-haiku-4-5,30,2,cold,Academics,cold,2,Academics,True,True,False
+v4,claude-haiku-4-5,30,3,cold,Academics,cold,2,Academics,True,True,False
+v4,claude-haiku-4-5,31,1,cold,Allocators / other,cold,1,Allocators / other,True,True,False
+v4,claude-haiku-4-5,31,2,cold,Allocators / other,cold,2,Allocators / other,True,True,False
+v4,claude-haiku-4-5,31,3,cold,Allocators / other,cold,2,Allocators / other,True,True,False
+v4,claude-haiku-4-5,32,1,cold,Medical professionals,cold,2,Medical professionals,True,True,False
+v4,claude-haiku-4-5,32,2,cold,Medical professionals,cold,2,Medical professionals,True,True,False
+v4,claude-haiku-4-5,32,3,cold,Medical professionals,cold,2,Medical professionals,True,True,False
+v4,claude-haiku-4-5,33,1,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v4,claude-haiku-4-5,33,2,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v4,claude-haiku-4-5,33,3,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v4,claude-haiku-4-5,34,1,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v4,claude-haiku-4-5,34,2,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v4,claude-haiku-4-5,34,3,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v4,claude-haiku-4-5,35,1,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v4,claude-haiku-4-5,35,2,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v4,claude-haiku-4-5,35,3,uncontactable,Allocators / other,uncontactable,0,Allocators / other,True,True,False
+v4,claude-haiku-4-5,36,1,warm,Allocators / other,warm,6,Allocators / other,True,True,False
+v4,claude-haiku-4-5,36,2,warm,Allocators / other,warm,6,Allocators / other,True,True,False
+v4,claude-haiku-4-5,36,3,warm,Allocators / other,warm,6,Allocators / other,True,True,False
+v4,claude-haiku-4-5,37,1,warm,Allocators / other,hot,8,Allocators / other,False,True,False
+v4,claude-haiku-4-5,37,2,warm,Allocators / other,hot,8,Allocators / other,False,True,False
+v4,claude-haiku-4-5,37,3,warm,Allocators / other,hot,8,Allocators / other,False,True,False
+v4,claude-haiku-4-5,38,1,warm,Allocators / other,warm,5,Allocators / other,True,True,False
+v4,claude-haiku-4-5,38,2,warm,Allocators / other,warm,6,Allocators / other,True,True,False
+v4,claude-haiku-4-5,38,3,warm,Allocators / other,warm,5,Allocators / other,True,True,False
+v4,claude-haiku-4-5,39,1,warm,Founders,hot,7,Founders,False,True,False
+v4,claude-haiku-4-5,39,2,warm,Founders,hot,7,Founders,False,True,False
+v4,claude-haiku-4-5,39,3,warm,Founders,hot,7,Founders,False,True,False
+v4,claude-haiku-4-5,40,1,hot,Medical professionals,hot,7,Medical professionals,True,True,False
+v4,claude-haiku-4-5,40,2,hot,Medical professionals,hot,7,Medical professionals,True,True,False
+v4,claude-haiku-4-5,40,3,hot,Medical professionals,hot,7,Medical professionals,True,True,False
