@@ -29,7 +29,7 @@ python run_eval.py --model claude-sonnet-4-6 --prompt your_prompt.txt --runs 3 -
 | v3 (kept) | Haiku 4.5 | 84.2% | 89.2% | 39 of 40 |
 | v4 | Haiku 4.5 | 86.7% | 90.8% | 39 of 40 |
 
-Sonnet 4.6 is the model the live tool called.
+v1 is the prompt as it ran in the tool. v2, v3 and v4 are the first, second and third rounds of changes, so v3 is the second-round prompt the case study says I kept. Sonnet 4.6 is the model the live tool called.
 
 ## What changed in each round
 
